@@ -2,7 +2,7 @@
   <img src="img/logo.png" alt="Project Logo" width="260" />
 </p>
 
-<h1 align="center">🚀 AutoLife Benchamrk: Automatic Life Journaling with Smartphones and LLMs</h1>
+<h1 align="center">🚀 AutoLife Dataset: Automatic Life Journaling with Smartphones and LLMs</h1>
 
 <p align="center">
   <a href="#" target="_blank" rel="noopener noreferrer">
@@ -23,8 +23,15 @@
 
 ---
 # AutoLife
-A multimodal **sensor dataset with aligned reference journals** capturing real-world user behaviors during daily activities (e.g., walking, studying, commuting) in a campus environment.  
-The dataset supports research on **automatic life logging, behavior understanding, context modeling, and human-centered sensing systems**.
+The widespread adoption of mobile devices, especially smartphones, has fundamentally transformed how people interact with the physical world and generate personal data. Modern phones continuously capture rich multimodal signals such as motion, location, and environmental context, enabling new opportunities to understand human behavior at scale.
+
+**Life journaling** is an emerging application that aims to automatically generate semantic and factual descriptions of a person’s daily life from sensor data. Instead of relying on manual logging, life journaling systems can infer key activities, behaviors, transitions, and surrounding contexts, producing structured and natural summaries of daily experiences. Such capabilities enable a wide range of downstream applications, including personalized recommendations based on user behavior, automatic organization and annotation of personal photos and videos, analysis and optimization of daily routines for health and productivity, and long-term behavior understanding.
+
+The **AutoLife Dataset** is designed to support research in automatic life journaling and mobile sensing. It contains multimodal smartphone sensor data aligned with **reference journals** describing user activities collected during a real-world campus user study. The dataset provides temporally synchronized sensor streams and human-readable annotations, enabling the development and evaluation of models for behavior recognition, temporal reasoning, multimodal fusion, and sensor-to-text generation.
+
+This dataset serves as the official **benchmarking dataset** for our [IMWUT paper](https://dl.acm.org/doi/10.1145/3770683):  
+👉 **“AutoLife: Automatic Life Journaling with Smartphone Sensors and Large Language Models”**  
+
 
 ---
 
@@ -33,7 +40,7 @@ The dataset supports research on **automatic life logging, behavior understandin
 Each record contains:
 - 📱 **Smartphone sensor data** collected during real-world usage
 - 📝 **Reference journals** describing user behaviors and activities
-- ⏱️ **Temporal annotations** for behavior segments
+- ⏱️ **Metadata** for setup
 
 Example scenarios include campus mobility, indoor stays, short transitions, and daily routines.
 
@@ -70,15 +77,18 @@ pip install -r requirements.txt
 ## 📂 Dataset Structure
 ``` text
 data/
-├── experiment/ //Raw sensor streams collected during the experiment
-│   ├── accelerometer.csv // accelerometer sensor measurements with timestamps.
-│   ├── gyroscope.csv
-│   ├── location.csv
-│   ├── wifi.csv
-│   ├── label.csv // experiment start and end time
-│   └── [other_sensor].csv
-├── reference_journals.json // Reference journals describing user behaviors annotations.
-└── metadata.csv // Dataset-level metadata
+├── experiment/                     // Raw sensor streams collected during the experiment
+│   ├── time_tag_1/                 // Data collection session folder, named in 'HH_MM_SS' format
+│   │   ├── accelerometer.csv       // Accelerometer measurements with timestamps
+│   │   ├── gyroscope.csv           // Gyroscope measurements with timestamps
+│   │   ├── location.csv            // Location samples with timestamps
+│   │   ├── wifi.csv                // WiFi scan records with timestamps
+│   │   ├── label.csv               // Experiment start/end time and segment labels
+│   │   └── [other_sensor].csv      // Other available sensor modalities
+│   ├── time_tag_2/
+│   │   └── ...
+├── reference_journals.json         // Reference journals describing user behaviors and activity annotations
+└── metadata.csv                    // Dataset-level metadata and statistics
 ```
 
 **Description:**
