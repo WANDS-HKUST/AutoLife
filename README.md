@@ -25,7 +25,11 @@
 # AutoLife
 The widespread adoption of mobile devices, especially smartphones, has fundamentally transformed how people interact with the physical world and generate personal data. Modern phones continuously capture rich multimodal signals such as motion, location, and environmental context, enabling new opportunities to understand human behavior at scale.
 
-**Life journaling** is an emerging application that aims to automatically generate semantic and factual descriptions of a person’s daily life from sensor data. Instead of relying on manual logging, life journaling systems can infer key activities, behaviors, transitions, and surrounding contexts, producing structured and natural summaries of daily experiences. Such capabilities enable a wide range of downstream applications, including personalized recommendations based on user behavior, automatic organization and annotation of personal photos and videos, analysis and optimization of daily routines for health and productivity, and long-term behavior understanding.
+<p align="center">
+  <img src="img/application.jpg" alt="Project Logo" width="360" />
+</p>
+
+**Life journaling** is an new application that aims to automatically generate semantic and factual descriptions of a person’s daily life from sensor data. Instead of relying on manual logging, life journaling systems can infer key activities, behaviors, transitions, and surrounding contexts, producing structured and natural summaries of daily experiences. Such capabilities enable a wide range of downstream applications, including personalized recommendations based on user behavior, automatic organization and annotation of personal photos and videos, analysis and optimization of daily routines for health and productivity, and long-term behavior understanding.
 
 The **AutoLife Dataset** is designed to support research in automatic life journaling and mobile sensing. It contains multimodal smartphone sensor data aligned with **reference journals** describing user activities collected during a real-world campus user study. The dataset provides temporally synchronized sensor streams and human-readable annotations, enabling the development and evaluation of models for behavior recognition, temporal reasoning, multimodal fusion, and sensor-to-text generation.
 
@@ -56,32 +60,40 @@ Example scenarios include campus mobility, indoor stays, short transitions, and 
 
 ## 📥 Download Dataset
 
-The dataset is available at:
+The raw sensor dataset is available at:
 
 👉 [Download here](https://drive.google.com/file/d/16hXedIOmaIZJ82wbdIaJIiGSw6bEF_PU/view?usp=sharing)
 
-After downloading, unzip the dataset:
+After downloading, unzip the sensor data:
 
 ```bash
-unzip autolife_dataset.zip -d data/
+unzip autolife_data.zip -d data/
 ```
-Put the folder 'autolife_dataset' in the main directory of this repository.
+Put the folder in the main directory of this repository.
 
 ## 📂 Dataset Structure
 ``` text
-autolife_dataset/
-├── experiment/                     // Raw sensor streams collected during the experiment
-│   ├── time_tag_1/                 // Data collection session folder, named in 'HH_MM_SS' format
+data/
+├── experiment_1/                   // Raw sensor streams collected during the experiment
+│   ├── sensor_session_1/           // Data collection session folder, named in 'HH_MM_SS' format
 │   │   ├── accelerometer.csv       // Accelerometer measurements with timestamps
 │   │   ├── gyroscope.csv           // Gyroscope measurements with timestamps
 │   │   ├── location.csv            // Location samples with timestamps
 │   │   ├── wifi.csv                // WiFi scan records with timestamps
 │   │   ├── label.csv               // Experiment start/end time and segment labels
 │   │   └── [other_sensor].csv      // Other available sensor modalities
-│   ├── time_tag_2/
+│   ├── sensor_session_2/
 │   │   └── ...
-reference_journals.json         // Reference journals describing user behaviors and activity annotations
+│   └──  ...
+├── experiment_2/                   // Raw sensor streams collected during the experiment
+├── experiment_3/
+├── ...
+└── experiment_N/
+journals_reference.json         // Reference journals describing user behaviors and activity annotations
+journals_generated_sample.json  // Samples of generated journals derived from sensor data
 metadata.csv                    // Dataset-level metadata and statistics
+sensortool.py                   // Helper script for reading the dataset
+lj_evaluation.py                // Helper script for evaluating the generated journals
 ```
 
 **Description:**
@@ -89,7 +101,7 @@ metadata.csv                    // Dataset-level metadata and statistics
   Raw sensor streams collected during the experiment (one CSV file per sensor).
 - `accelerometer.csv`, `gyroscope.csv`, `location.csv`, etc.  
   Time-series sensor measurements with timestamps.
-- `reference_journals.json`  
+- `journals_reference.json`  
   Reference journals describing user behaviors and activity annotations.
 - `metadata.csv`  
   Dataset-level metadata (e.g., session information, timestamps, and statistics).
