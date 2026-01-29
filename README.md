@@ -56,7 +56,7 @@ Example scenarios include campus mobility, indoor stays, short transitions, and 
 
 ## 📥 Download Dataset
 
-Dataset is available at:
+The dataset is available at:
 
 👉 [Download here](https://drive.google.com/file/d/16hXedIOmaIZJ82wbdIaJIiGSw6bEF_PU/view?usp=sharing)
 
@@ -65,18 +65,11 @@ After downloading, unzip the dataset:
 ```bash
 unzip autolife_dataset.zip -d data/
 ```
-## ⚙️ Setup
-
-We recommend Python 3.8+.
-
-Install dependencies:
-```bash
-pip install -r requirements.txt
-```
+Put the folder 'autolife_dataset' in the main directory of this repository.
 
 ## 📂 Dataset Structure
 ``` text
-data/
+autolife_dataset/
 ├── experiment/                     // Raw sensor streams collected during the experiment
 │   ├── time_tag_1/                 // Data collection session folder, named in 'HH_MM_SS' format
 │   │   ├── accelerometer.csv       // Accelerometer measurements with timestamps
@@ -87,8 +80,8 @@ data/
 │   │   └── [other_sensor].csv      // Other available sensor modalities
 │   ├── time_tag_2/
 │   │   └── ...
-├── reference_journals.json         // Reference journals describing user behaviors and activity annotations
-└── metadata.csv                    // Dataset-level metadata and statistics
+reference_journals.json         // Reference journals describing user behaviors and activity annotations
+metadata.csv                    // Dataset-level metadata and statistics
 ```
 
 **Description:**
@@ -100,3 +93,12 @@ data/
   Reference journals describing user behaviors and activity annotations.
 - `metadata.csv`  
   Dataset-level metadata (e.g., session information, timestamps, and statistics).
+
+## ⚙️ Setup
+
+We recommend Python 3.8+.
+
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
