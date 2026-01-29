@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="img/logo.png" alt="Project Logo" width="260" />
+  <img src="img/autolife.jpg" alt="Project Logo" width="120" />
 </p>
 
 <h1 align="center">🚀 AutoLife Dataset: Automatic Life Journaling with Smartphones and LLMs</h1>
