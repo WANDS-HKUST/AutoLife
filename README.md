@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/github/stars/WANDS-HKUST/AutoLife?style=social&cacheSeconds=3600" alt="GitHub stars">
   </a>
   <a href="https://dl.acm.org/doi/10.1145/3680207.3765261" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Paper-MobiCom%202025-ff69b4?logo=academia&logoColor=white" alt="IMWUT(Ubicomp) 2025 paper">
+    <img src="https://img.shields.io/badge/Paper-IMWUT%202025-ff69b4?logo=academia&logoColor=white" alt="IMWUT(Ubicomp) 2025 paper">
   </a>
 </p>
 
