@@ -43,8 +43,8 @@ Here is a summary of the sensors:
 |  | [Gravity.csv](#gravitycsv)                           | Gravity vector in device coordinates |
 |  | [Linear_Accelerometer.csv](#linear_accelerometercsv) | Linear acceleration excluding gravity |
 |  | [Step_Counter.csv](#step_countercsv)                 | Cumulative step count, only updated when steps change |
-|  | [Activity.csv](#activitycsv) | Activity recognition output (empty in our experiments) |
-| **Metadata** | [Label.csv](#labelcsv)                               | Marks start and end of each session |
+|  | [Activity.csv](#activitycsv)                         | Activity recognition output (empty in our experiments) |
+| **Metadata** | [Label.csv](#labelcsv) | Marks start and end of each session |
 
 
 For more information about Android sensors and their behavior, see the official documentation [here](https://developer.android.com/develop/sensors-and-location/sensors/sensors_overview).
@@ -515,8 +515,8 @@ timestamp, steps
 Records the **recognized user activity** using Google Activity Recognition API.  
 Each row would normally include a timestamp and activity type, but in our experiments, this file **contains no recorded values**.
 
-### Meta File
-Label.csv records the **start and end times of each data collection session**. This file contains only two rows per session: one marking the start and one marking the end.
+### Label.csv
+Records the **start and end times of each data collection session**. This file contains only two rows per session: one marking the start and one marking the end.
 
 Each row represents a label record with the following format:
 ```
