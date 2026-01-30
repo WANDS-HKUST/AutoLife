@@ -33,22 +33,22 @@ The widespread adoption of mobile devices, especially smartphones, has fundament
 
 The **AutoLife Dataset** is designed to support research in automatic life journaling and mobile sensing. It contains multimodal smartphone sensor data aligned with **reference journals** describing user activities collected during a real-world campus user study. The dataset provides temporally synchronized sensor streams and human-readable annotations, enabling the development and evaluation of models for behavior recognition, temporal reasoning, multimodal fusion, and sensor-to-text generation.
 
-This dataset serves as the official **benchmarking dataset** for our [IMWUT paper](https://dl.acm.org/doi/10.1145/3770683):  
+This dataset serves as the official **benchmarking dataset** for our [IMWUT 2025 paper](https://dl.acm.org/doi/10.1145/3770683):  
 👉 **“AutoLife: Automatic Life Journaling with Smartphone Sensors and Large Language Models”**  
 
 
 ---
 
-## 📌 Dataset Overview
+# 📌 Dataset
 
-Each record contains:
-- 📱 **Smartphone sensor data** collected during real-world usage
+This dataset contains:
+- 📱 **Smartphone sensor data** (16 physical sensors like WiFi, Location, IMU) collected during real-world usage
 - 📝 **Reference journals** describing user behaviors and activities
 - ⏱️ **Metadata** for setup
 
 Example scenarios include campus mobility, indoor stays, short transitions, and daily routines.
 
-### Basic Statistics
+## Basic Statistics
 
 | Metric | Value |
 |--------|-------|
@@ -58,23 +58,53 @@ Example scenarios include campus mobility, indoor stays, short transitions, and 
 
 ---
 
+## ⚙️ Setup
+
+We recommend using **Python 3.8 or later**.
+
+First, clone the repository:
+
+```bash
+git clone https://github.com/WANDS-HKUST/AutoLife.git
+cd AutoLife
+```
+
+Then install the required dependencies:
+
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
 ## 📥 Download Dataset
 
-The raw sensor dataset is available at:
+The raw sensor dataset is available via Google Drive.
 
-👉 [Download here](https://drive.google.com/file/d/16hXedIOmaIZJ82wbdIaJIiGSw6bEF_PU/view?usp=sharing)
+### Option 1: Download via Command Line
 
-After downloading, unzip the sensor data:
+You can download the dataset directly using the following command:
 
+```bash
+wget https://drive.google.com/uc?id=16hXedIOmaIZJ82wbdIaJIiGSw6bEF_PU -O autolife_data.zip
+```
+
+Then unzip the dataset:
 ```bash
 unzip autolife_data.zip -d data/
 ```
-Put the folder in the main directory of this repository.
+
+### Option 2: Manual Download
+
+Alternatively, you can download the dataset manually from Google Drive:
+
+👉 [Download here](https://drive.google.com/file/d/16hXedIOmaIZJ82wbdIaJIiGSw6bEF_PU/view?usp=sharing)
+
+After downloading, unzip the file and place the extracted folder in the root directory of this repository:
 
 ## 📂 Dataset Structure
 ``` text
 data/
-├── experiment_1/                   // Raw sensor streams collected during the experiment
+├── experiment_1/                   // Raw sensor streams collected during one experiment
 │   ├── sensor_session_1/           // Data collection session folder, named in 'HH_MM_SS' format
 │   │   ├── accelerometer.csv       // Accelerometer measurements with timestamps
 │   │   ├── gyroscope.csv           // Gyroscope measurements with timestamps
@@ -85,7 +115,7 @@ data/
 │   ├── sensor_session_2/
 │   │   └── ...
 │   └──  ...
-├── experiment_2/                   // Raw sensor streams collected during the experiment
+├── experiment_2/                   // Raw sensor streams collected during one experiment
 ├── experiment_3/
 ├── ...
 └── experiment_N/
@@ -95,10 +125,16 @@ metadata.csv                    // Dataset-level metadata and statistics
 sensortool.py                   // Helper script for reading the dataset
 lj_evaluation.py                // Helper script for evaluating the generated journals
 ```
+## 🗂️ Sensor Data
 
-**Description:**
-- `experiment/`  
-  Raw sensor streams collected during the experiment (one CSV file per sensor).
+The `data/` directory contains all raw sensor data. Each `experiment/` folder represents data collected from a single experiment, typically spanning a long duration (e.g., around 5 hours).
+
+Within each experiment, the data is further divided into multiple **sensor sessions**, where each session is stored in a separate folder (e.g., `sensor_session_1/`). A sensor session corresponds to a short data collection window of **15 seconds**, and a new session is initiated every **1 minute**.
+
+Each session folder includes multiple CSV files, one per sensor, recording time-series measurements during that window. For detailed explanations of the sensor data formats and CSV contents, please refer to [`data/README.md`](data/README.md).
+
+
+Raw sensor streams collected during the experiment (one CSV file per sensor).
 - `accelerometer.csv`, `gyroscope.csv`, `location.csv`, etc.  
   Time-series sensor measurements with timestamps.
 - `journals_reference.json`  
@@ -106,11 +142,39 @@ lj_evaluation.py                // Helper script for evaluating the generated jo
 - `metadata.csv`  
   Dataset-level metadata (e.g., session information, timestamps, and statistics).
 
-## ⚙️ Setup
+## Reference Journals
 
-We recommend Python 3.8+.
+The reference journals provide **ground-truth descriptions of user behaviors and activities**, and are stored in the file `reference_journals.json`. These journals serve as semantic annotations aligned with the collected sensor data.
 
-Install dependencies:
-```bash
-pip install -r requirements.txt
+Each entry in the JSON file is a **key–value pair**:
+
+- **Key (`k`)**: Identifies the data collection period and device  
+- **Value (`v`)**: Contains the reference journal content and metadata
+
+Examples:
+```json
+{
+  "mobile_j240322_[1717-1746]": {
+    "journals_ref": [ // List of reference journal entries
+      "Walking on campus", 
+      "Attending a lecture",
+      "Studying in the library"
+    ],
+    "duration": 16 // Duration in minutes
+  }
+}
 ```
+Each key follows the format:
+```
+mobile_[device_id][date: YYMMDD][start_time-end_time]
+```
+For example, `mobile_j240322_[1717-1746]` indicates that the data was collected using device `j` on **2024-03-22**, from **17:17 to 17:46** (24-hour format).
+
+The value associated with each key contains metadata and reference journals.
+# Usage
+
+
+##  Loading Sensor Data
+
+##  Journal Evaluation
+

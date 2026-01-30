@@ -151,7 +151,7 @@ def evaluate(path_estimate, path_ref, keywords, metric_list, time_intervals=[0, 
 
 if __name__ == '__main__':
     keywords = ['ne1_ne1']
-    metrics_all, metrics_all_time = evaluate('saved/journal/journals.json', 'saved/journal/journals_ref.json',
+    metrics_all, metrics_all_time = evaluate('saved/journal/journals.json', 'saved/journal/journals_reference.json',
              keywords=keywords, metric_list=['ALL'])
     metrics_avg = average_dicts(metrics_all)
     metrics_avg_time = [average_dicts(metrics_all_i) for metrics_all_i in metrics_all_time]
