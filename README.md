@@ -152,7 +152,7 @@ Each entry in the JSON file is a **key–value pair**:
 - **Value (`v`)**: Contains the reference journal content and metadata
 
 Examples:
-```json
+```text
 {
   "mobile_j240322_[1717-1746]": {
     "journals_ref": [ // List of reference journal entries
@@ -178,3 +178,38 @@ The value associated with each key contains metadata and reference journals.
 
 ##  Journal Evaluation
 
+# ⚠️ Important Reminders and Limitations
+
+When using this dataset, please keep the following points in mind:
+
+1. **Participant Device Usage**  
+   Participants carried smartphones while going about their daily lives to mimic natural, real-world behaviors. However, in most cases, participants did **not frequently interact** with the experiment device, as it was **not their personal smartphone**. As a result, interaction-driven signals (e.g., app usage or screen events) may be absent.
+
+2. **Session Interruptions and Missing Data**  
+   Although sensor sessions were configured to start **once per minute**, Android system constraints (e.g., background execution limits, idle states) may pause or delay data collection. Consequently, some experiments contain **long periods of missing sensor data**. This reflects a **realistic challenge** in deploying life journaling systems in the wild.
+
+3. **Connectivity and Sensor Availability**  
+   Most experimental smartphones did **not have continuous network connectivity**. As a result, **location data may be missing**, especially in indoor environments. Additionally, some sensors only report new values when a change is detected (e.g., **step counter**).
+
+4. **Recommended Usage of the Dataset**  
+   We **do not recommend** using this dataset to directly train models (e.g., LLMs or MLLMs) for end-to-end life journaling. Human behaviors are highly complex, and this dataset covers only a **small set of activities and locations**. Instead, the dataset is better suited for:
+   - Few-shot prompting or evaluation of LLMs
+   - Benchmarking behavior understanding pipelines
+   - Studying sensor-to-text alignment under real-world constraints
+
+# 📖 Citation
+
+If you use this dataset in your research, please cite our [IMWUT 2025 paper](https://dl.acm.org/doi/10.1145/3770683):
+
+```bibtex
+@article{xu2025autolife,
+  title={AutoLife: Automatic Life Journaling with Smartphones and LLMs},
+  author={Xu, Huatao and Zeng, Zilin and Tong, Panrong and Li, Mo and Srivastava, Mani B.},
+  journal={Proceedings of the ACM on Interactive, Mobile, Wearable and Ubiquitous Technologies},
+  volume={9},
+  number={4},
+  pages={1--29},
+  year={2025},
+  publisher={ACM New York, NY, USA}
+}
+```
