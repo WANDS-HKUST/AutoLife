@@ -31,7 +31,7 @@ The widespread adoption of mobile devices, especially smartphones, has fundament
 
 **Life journaling** is an new application that aims to automatically generate semantic and factual descriptions of a person’s daily life from sensor data. Instead of relying on manual logging, life journaling systems can infer key activities, behaviors, transitions, and surrounding contexts, producing structured and natural summaries of daily experiences. Such capabilities enable a wide range of downstream applications, including personalized recommendations based on user behavior, automatic organization and annotation of personal photos and videos, analysis and optimization of daily routines for health and productivity, and long-term behavior understanding.
 
-The **AutoLife Dataset** is designed to support research in automatic life journaling and mobile sensing. It contains multimodal smartphone sensor data aligned with **reference journals** describing user activities collected during a real-world campus user study. The dataset provides temporally synchronized sensor streams and human-readable annotations, enabling the development and evaluation of models for behavior recognition, temporal reasoning, multimodal fusion, and sensor-to-text generation.
+The **AutoLife Dataset** is designed to support research in automatic life journaling and mobile sensing. It contains multimodal smartphone sensor data aligned with **reference journals** describing user activities collected during a real-world user study. The dataset provides temporally synchronized sensor streams and human-readable annotations, enabling the development and evaluation of models for behavior recognition, temporal reasoning, multimodal fusion, and sensor-to-text generation.
 
 This dataset serves as the official **benchmarking dataset** for our [IMWUT 2025 paper](https://dl.acm.org/doi/10.1145/3770683):  
 👉 **“AutoLife: Automatic Life Journaling with Smartphone Sensors and Large Language Models”**  
@@ -122,7 +122,7 @@ data/
 journals_reference.json         // Reference journals describing user behaviors and activity annotations
 journals_generated_sample.json  // Samples of generated journals derived from sensor data
 meta.json                       // Dataset-level metadata about devices and experimenter
-sensortool.py                   // Helper script for reading the dataset
+sensortool.py                   // Helper script for reading raw sensor data
 lj_evaluation.py                // Helper script for evaluating the generated journals
 ```
 ## 🗂️ Sensor Data
@@ -132,15 +132,6 @@ The `data/` directory contains all raw sensor data. Each `experiment/` folder re
 Within each experiment, the data is further divided into multiple **sensor sessions**, where each session is stored in a separate folder (e.g., `sensor_session_1/`). A sensor session corresponds to a short data collection window of **15 seconds**, and a new session is initiated every **1 minute**.
 
 Each session folder includes multiple CSV files, one per sensor, recording time-series measurements during that window. For detailed explanations of the sensor data formats and CSV contents, please refer to [`data/README.md`](data/README.md).
-
-
-Raw sensor streams collected during the experiment (one CSV file per sensor).
-- `accelerometer.csv`, `gyroscope.csv`, `location.csv`, etc.  
-  Time-series sensor measurements with timestamps.
-- `journals_reference.json`  
-  Reference journals describing user behaviors and activity annotations.
-- `metadata.csv`  
-  Dataset-level metadata (e.g., session information, timestamps, and statistics).
 
 ## Reference Journals
 

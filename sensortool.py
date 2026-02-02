@@ -271,7 +271,7 @@ class Experiment:
 
 
 # Load data into the Experiment class
-# subdir_path = r'D:\j240322'
+# subdir_path = r'data/j240322'
 # experiment_data = Experiment.from_directory(subdir_path)
 # acce = Experiment.format_simple_sensor(experiment_data.accelerometer[0])
 # gyro = Experiment.format_simple_sensor(experiment_data.gyroscope[0])
