@@ -197,6 +197,16 @@ When using this dataset, please keep the following points in mind:
    - Benchmarking behavior understanding pipelines
    - Studying sensor-to-text alignment under real-world constraints
 
+5. **Reference Journals**
+   
+   After the experiment, participants were asked to provide a short summary of their behaviors during the study period, which serves as reference journals for evaluation. We observed substantial diversity in how participants wrote their journals, including differences in:
+    - **Writing styles and formats**
+    - **Granularity of descriptions** (e.g., location described at the city / area / building / store level)
+    - **Intent or purpose** (e.g., *going somewhere for something*)
+    - **Subjective feelings and reflections**
+   
+   To enable **unified and fair evaluation**, we standardized these reference journals by unifying formats and removing subjective feelings. It is important to note that in real-world life journaling, **all of this information is valuable**. Users may prefer different styles, levels of detail, and emotional expressions. Our standardization is solely for evaluation purposes and does not reflect an ideal or recommended journaling style in practice.
+
 # 📖 Citation
 
 If you use this dataset in your research, please cite our [IMWUT 2025 paper](https://dl.acm.org/doi/10.1145/3770683):
