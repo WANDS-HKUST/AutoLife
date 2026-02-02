@@ -190,7 +190,7 @@ When using this dataset, please keep the following points in mind:
    Although sensor sessions were configured to start **once per minute**, Android system constraints (e.g., background execution limits, idle states) may pause or delay data collection. Consequently, some experiments contain **long periods of missing sensor data**. This reflects a **realistic challenge** in deploying life journaling systems in the wild.
 
 3. **Connectivity and Sensor Availability**  
-   Most experimental smartphones did **not have continuous network connectivity**. As a result, **location data may be missing**, especially in indoor environments. Additionally, some sensors only report new values when a change is detected (e.g., **step counter**).
+   Most experimental smartphones did **not have continuous network connectivity**. As a result, **location data may be missing**, especially in indoor environments. Additionally, many devices lack barometer and some sensors only report new values when a change is detected (e.g., **step counter**).
 
 4. **Recommended Usage of the Dataset**  
    We **do not recommend** using this dataset to directly train models (e.g., LLMs or MLLMs) for end-to-end life journaling. Human behaviors are highly complex, and this dataset covers only a **small set of activities and locations**. Instead, the dataset is better suited for:
