@@ -1,0 +1,60 @@
+{
+  "name": "autolife",
+  "version": "1.0.0",
+  "description": "",
+  "devices": {
+    "j": {
+      "model": "Samsung Galaxy S8",
+      "notes": "Supports pressure sensor"
+    },
+    "a": {
+      "model": "Samsung Galaxy A55",
+      "notes": "Lacks pressure sensor"
+    },
+    "b": {
+      "model": "Huawei Nova 12s",
+      "notes": "Lacks pressure sensor"
+    },
+    "c": {
+      "model": "Vivo V30",
+      "notes": "Lacks pressure sensor"
+    },
+    "d": {
+      "model": "Samsung Galaxy S24",
+      "notes": "Supports pressure sensor"
+    },
+    "e": {
+      "model": "Huawei Pura 70",
+      "notes": "Lacks pressure sensor"
+    },
+    "f": {
+      "model": "Oppo Find X8",
+      "notes": "Lacks pressure sensor"
+    },
+    "g": {
+      "model": "Huawei Mate 40 RS",
+      "notes": "Supports pressure sensor"
+    },
+    "h": {
+      "model": "Oppo Reno 10",
+      "notes": "Lacks pressure sensor"
+    },
+    "i": {
+      "model": "Xiaomi 14",
+      "notes": "Supports pressure sensor"
+    },
+    "experimenters": {
+      "A": "male",
+      "B": "female",
+      "C": "male",
+      "D": "male",
+      "E": "male",
+      "F": "male",
+      "G": "male",
+      "H": "female",
+      "I": "male",
+      "j": "female"
+    }
+  }
+
+}

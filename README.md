@@ -121,7 +121,7 @@ data/
 └── experiment_N/
 journals_reference.json         // Reference journals describing user behaviors and activity annotations
 journals_generated_sample.json  // Samples of generated journals derived from sensor data
-metadata.csv                    // Dataset-level metadata and statistics
+meta.json                       // Dataset-level metadata about devices and experimenter
 sensortool.py                   // Helper script for reading the dataset
 lj_evaluation.py                // Helper script for evaluating the generated journals
 ```
@@ -154,13 +154,14 @@ Each entry in the JSON file is a **key–value pair**:
 Examples:
 ```text
 {
-  "mobile_j240322_[1717-1746]": {
-    "journals_ref": [ // List of reference journal entries
-      "Walking on campus", 
-      "Attending a lecture",
-      "Studying in the library"
+  "mobile_j240615_[2106-2151]": {
+    "reference_journals": [ // List of reference journal entries
+      "In the evening, the user browses a shopping mall.", 
+      "In the evening, the user explores a shopping mall."
     ],
-    "duration": 16 // Duration in minutes
+    "duration": 16, // Duration in minutes
+    "experimenter": "A", // experimenter ID
+    "device": "j" // device ID
   }
 }
 ```
