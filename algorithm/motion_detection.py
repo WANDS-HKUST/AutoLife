@@ -4,7 +4,7 @@
 # @Author  : Huatao
 # @Email   : 735820057@qq.com
 # @File    : motion detection related algorithms
-# @Description :
+# @Description : the step count refers to https://github.com/location-competition/indoor-location-competition-20
 
 import numpy as np
 from scipy import signal

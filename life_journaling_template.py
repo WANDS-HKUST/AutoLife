@@ -12,14 +12,11 @@ import time
 import re
 import pytz
 
-from algorithm.motion_detection import detect_motion_rule
-from algorithm.step_counter import step_detect
+from algorithm.motion_detection import detect_motion_rule, step_detect
 from sensortool import Experiment
 import numpy as np
-from scipy import signal
-import copy
 
-from utils import set_seeds, Printer, log_append, find_mode, save_journal
+from utils import set_seeds, Printer, log_append, find_mode, save_journal, clean_sensor_data
 
 
 def format_timestamp(timestamp_milliseconds):
@@ -221,23 +218,19 @@ def decode_response(response, re_journal=r"Summary:[ \n]*(.*)"):
         return "None"
 
 
-def infer_daily_activity(path_dataset, path_save,time_window=20, fail_num_max=5, seed=3432):
+def infer_daily_activity(path_dataset, path_save,time_window=20, seed=3432):
     set_seeds(seed)
     data = Experiment.from_directories(path_dataset)
 
     printer = Printer()
     i, usage_sum = 0, 0
-    labels, labels_estimate = [], []
     while i < len(data):
 
         exp = data[i]
         time_duration, time_start, time_end = preprocess_time(exp.label)
         time_tag = time_start  #
-        infer_num_total = int(np.ceil(time_duration / time_window))
 
-        labels_previous = None
         while time_tag < time_end:
-            inference_start_time = time.time()
             time_tag_next = time_tag + time_window * 1000
             exp_sliced = exp.filter_by_timestamp(time_tag, time_tag_next)
 
@@ -245,7 +238,7 @@ def infer_daily_activity(path_dataset, path_save,time_window=20, fail_num_max=5,
 
             step_min = preprocess_step_counter(exp_sliced.step_counter, time_window, exp_sliced.accelerometer)
             acce_mean, acce_std = preprocess_linear_accelerometer(exp_sliced.linear_accelerometer)
-            # light = preprocess_light(exp_sliced.light)
+            light = preprocess_light(exp_sliced.light)
             pressure_altitude_change = preprocess_pressure(exp_sliced.pressure, time_duration=None)
             satellite_count, satellite_snr, azimuths, elevations = preprocess_satellite(exp_sliced.satellite)
             wifi_last_count, latest_ap_list_filter = preprocess_wifi(exp_sliced.wifi)
@@ -255,8 +248,11 @@ def infer_daily_activity(path_dataset, path_save,time_window=20, fail_num_max=5,
                                                                                                   time_duration=time_window)
             speed_filter = speed if satellite_count is not None and satellite_count >= 5 else None
             motion_detected = detect_motion_rule(step_min, acce_mean, pressure_altitude_change, speed_filter, return_str=True)
-            # Your processing codes
 
+
+            # Your processing codes here
+            #
+            #
 
             printer.print("------------------------------------")
             journal_tag = date_string + " " + time_str
@@ -275,10 +271,8 @@ def infer_daily_activity(path_dataset, path_save,time_window=20, fail_num_max=5,
                              satellite_count, satellite_snr, azimuths, elevations, wifi_last_count, wifi_rssi_list,
                              accuracy)
             journal_log = log_append(journal_log, 'OTHERS', other_info)
-            # journal_log = log_append(journal_log, 'LABEL', '(%d, %d, %d)' % (label_motion, label_transportation, label_environment))
 
             save_journal(path_save, '%d_%d' % (time_tag, time_tag_next), journal_log)
-
 
             printer.print("Content:%s" % journal_log)
             time_tag = time_tag_next

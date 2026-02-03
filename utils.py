@@ -55,6 +55,7 @@ class Printer:
         print('Print info saved at %s' % saved_path)
         self.info_list.clear()
 
+
 def save_journal(folder_path, file_name, journal, replace=True):
     if not os.path.exists(folder_path):
         os.mkdir(folder_path)
@@ -62,3 +63,18 @@ def save_journal(folder_path, file_name, journal, replace=True):
     if replace or not os.path.exists(full_path):
         with open(full_path, 'w', encoding='utf-8') as file:
             file.write(journal)
+
+
+def remove_nan_rows(arr):
+    # Use boolean indexing to select only rows without NaN values
+    if len(arr) == 0:
+        return arr
+    clean_arr = arr[~np.isnan(arr).any(axis=1)]
+    return clean_arr
+
+
+def clean_sensor_data(sensor_data):
+    sensor_data_clean = remove_nan_rows(sensor_data)
+    if sensor_data_clean.size == 0:
+        return None
+    return sensor_data_clean
