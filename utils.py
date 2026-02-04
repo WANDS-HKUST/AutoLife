@@ -58,7 +58,7 @@ class Printer:
 
 def save_journal(folder_path, file_name, journal, replace=True):
     if not os.path.exists(folder_path):
-        os.mkdir(folder_path)
+        os.makedirs(folder_path, exist_ok=True)
     full_path = os.path.join(folder_path, file_name + '.txt')
     if replace or not os.path.exists(full_path):
         with open(full_path, 'w', encoding='utf-8') as file:

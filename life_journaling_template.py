@@ -7,15 +7,13 @@
 # @Description :
 import datetime
 import os
-import time
-
 import re
 import pytz
 
 from algorithm.motion_detection import detect_motion_rule, step_detect
 from sensortool import Experiment
 import numpy as np
-
+import argparse
 from utils import set_seeds, Printer, log_append, find_mode, save_journal, clean_sensor_data
 
 
@@ -250,7 +248,7 @@ def infer_daily_activity(path_dataset, path_save,time_window=20, seed=3432):
             motion_detected = detect_motion_rule(step_min, acce_mean, pressure_altitude_change, speed_filter, return_str=True)
 
 
-            # Your processing codes here
+            # Put your processing codes here
             #
             #
 
@@ -264,6 +262,7 @@ def infer_daily_activity(path_dataset, path_save,time_window=20, seed=3432):
             journal_log = log_append(journal_log, 'SENSOR_LOCATION', str((latitude, longitude)))
             journal_log = log_append(journal_log, 'SENSOR_STEP', format_number(step_min, 2))
             journal_log = log_append(journal_log, 'SENSOR_ACCE', format_number(acce_mean, 2))
+            journal_log = log_append(journal_log, 'SENSOR_LIGHT', light)
             journal_log = log_append(journal_log, 'SENSOR_ALTI_PRESSURE', format_number(pressure_altitude_change, 2))
             journal_log = log_append(journal_log, 'SENSOR_SPEED', format_number(speed_filter, 2))
             other_info = ("(satellite count: %s, satellite SNR: %s, satellite azimuths: %s, satellite elevations: %s,"
@@ -272,7 +271,7 @@ def infer_daily_activity(path_dataset, path_save,time_window=20, seed=3432):
                              accuracy)
             journal_log = log_append(journal_log, 'OTHERS', other_info)
 
-            save_journal(path_save, '%d_%d' % (time_tag, time_tag_next), journal_log)
+            save_journal(path_save, "%s %s" % (date_string, time_str.replace(':', '')), journal_log)
 
             printer.print("Content:%s" % journal_log)
             time_tag = time_tag_next
@@ -280,9 +279,15 @@ def infer_daily_activity(path_dataset, path_save,time_window=20, seed=3432):
         i += 1
     printer.print("------------------------------------")
     printer.print("Total usage token: %d" % usage_sum)
-    printer.save(path_save + "_log")
+    printer.save(os.path.join(path_save, "log"))
     return
 
 
 if __name__ == "__main__":
-    infer_daily_activity(args)
+    parser = argparse.ArgumentParser(description='AutoLife sensor processing')
+    parser.add_argument('experiment_dir', help='Input directory path')
+    parser.add_argument('output_dir', help='Output directory path')
+
+    args = parser.parse_args()
+
+    infer_daily_activity(f"data/{args.experiment_dir}", f"saved/{args.output_dir}")

@@ -101,8 +101,11 @@ Alternatively, you can download the dataset manually from Google Drive:
 
 After downloading, unzip the file and place the extracted folder in the root directory of this repository:
 
-## 📂 Dataset Structure
+## 📂 Repository Structure
 ``` text
+algorithm/
+├── gis_apis.py                     // Helper functions for calling Google and AMap APIs
+└── motion_detetction.py            // Algorithms for motion detection and step count
 data/
 ├── experiment_1/                   // Raw sensor streams collected during one experiment
 │   ├── sensor_session_1/           // Data collection session folder, named in 'HH_MM_SS' format
@@ -165,9 +168,12 @@ For example, `mobile_j240322_[1717-1746]` indicates that the data was collected 
 The value associated with each key contains metadata and reference journals.
 # Usage
 
-
-##  Loading Sensor Data
-
+##  Processing Sensor Data
+We provide a `life_journaling_template.py` script for helping you reading, processing sensor data for one session. You can run
+```bash
+python life_journaling_template.py experiment_dir output_dir
+```
+This script will process the experiment data and save some log files in the output_dir. For example, `python life_journaling_template.py a241107 a241107_results`. it will process all sensor data in experiment 'data/a241107' and save to the folder of 'saved/a241107_results' 
 ##  Journal Evaluation
 
 # ⚠️ Important Reminders and Limitations
