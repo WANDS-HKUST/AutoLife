@@ -3,7 +3,7 @@
 # @Time    : 16/8/2025
 # @Author  : Huatao
 # @Email   : 735820057@qq.com
-# @File    : life_journaling_template.py
+# @File    : process_template.py
 # @Description :
 import datetime
 import os
