@@ -169,12 +169,25 @@ The value associated with each key contains metadata and reference journals.
 # Usage
 
 ##  Processing Sensor Data
-We provide a `life_journaling_template.py` script for helping you reading, processing sensor data for one session. You can run
+
+We provide a script, `life_journaling_template.py`, to help you read and process sensor data from a single experiment session.
+
+Run the script as follows:
+
 ```bash
-python process_template.py experiment_dir output_dir
+python process_template.py <experiment_dir> <output_dir>
 ```
-This script will process the experiment data and save some log files in the output_dir. For example, `python life_journaling_template.py a241107 a241107_results`. it will process all sensor data in experiment 'data/a241107' and save to the folder of 'saved/a241107_results'. process_template.py also contains many functions to process raw sensor data, if you want
-to know more about how to read the data, please refer to `sensortool.py`.
+For example:
+```bash
+python life_journaling_template.py a241107 a241107_results
+```
+This command processes sensor data from `data/a241107` and saves the processed results and log files to `saved/a241107_results`.
+
+The `process_template.py` script includes:
+- Utility functions for processing raw sensor data
+- A placeholder section where you can add your own data processing logic
+
+If you would like to understand how raw sensor data is loaded and parsed, please refer to `sensortool.py`.
 ##  Journal Evaluation
 `lj_evaluation.py`
 # ⚠️ Important Reminders and Limitations
