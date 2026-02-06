@@ -1,5 +1,5 @@
 {
-    "mobile_j240322_[1717-1746]": {
+    "autolife_j240322_[1717-1746]": {
         "reference_journals": [
             "In the late afternoon, the user studies and works at the Hong Kong University of Science and Technology (HKUST) campus. Afterward, they take a bus to the Hang Hau transportation hub for transit.",
             "In the late afternoon, the user studies and works at the Hong Kong University of Science and Technology (HKUST). Afterward, they travel by bus to the Hang Hau transportation hub to catch a transit."
@@ -8,7 +8,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240322_[1747-1804]": {
+    "autolife_j240322_[1747-1804]": {
         "reference_journals": [
             "In the late afternoon, the user travels from Hang Hau Station to Po Lam Station via MTR, then walks to the MCP Central shopping mall.",
             "In the late afternoon, the user takes the MTR from Hang Hau Station to Po Lam Station, then walks to the MCP Central shopping mall."
@@ -17,7 +17,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240322_[1805-1858]": {
+    "autolife_j240322_[1805-1858]": {
         "reference_journals": [
             "In the evening, the user has a dinner at Tim Ho Wan restaurant in the MCP Central shopping mall for about an hour.",
             "In the evening, the user spends about an hour dining at Tim Ho Wan restaurant in the MCP Central shopping mall."
@@ -26,7 +26,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240322_[1900-1940]": {
+    "autolife_j240322_[1900-1940]": {
         "reference_journals": [
             "In the evening, the user browses the MCP Central shopping mall before heading to public transport.",
             "In the evening, the user explores the MCP Central shopping mall before taking public transport."
@@ -35,7 +35,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240322_[1941-2006]": {
+    "autolife_j240322_[1941-2006]": {
         "reference_journals": [
             "In the evening, the user takes the subway from Po Lam MTR Station to Hang Hau MTR Station and then goes home by bus.",
             "In the evening, the user takes the subway from Po Lam MTR Station to Hang Hau MTR Station, then takes a bus home."
@@ -44,7 +44,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240323_[2245-2307]": {
+    "autolife_j240323_[2245-2307]": {
         "reference_journals": [
             "In the late evening, the user walks from the Hong Kong University of Science and Technology (HKUST) to home in Tai Po Tsai.",
             "In the late evening, the user walks home to Tai Po Tsai from the Hong Kong University of Science and Technology (HKUST)."
@@ -53,7 +53,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240324_[1036-1107]": {
+    "autolife_j240324_[1036-1107]": {
         "reference_journals": [
             "In the late morning, the user leaves their residential area and takes a vehicle to Choi Hung MTR Station.",
             "In the late morning, the user departs from their residential area and travels by vehicle to Choi Hung MTR Station."
@@ -62,7 +62,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240324_[1108-1126]": {
+    "autolife_j240324_[1108-1126]": {
         "reference_journals": [
             "In the late morning, the user takes the MTR from Kowloon Tong Station to Tai Wai Station and waits for a while before proceeding to a commercial and residential area.",
             "In the late morning, the user travels by MTR from Kowloon Tong Station to Tai Wai Station, waits for a short period, and then heads to a commercial and residential area."
@@ -71,7 +71,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240324_[1127-1205]": {
+    "autolife_j240324_[1127-1205]": {
         "reference_journals": [
             "In the late morning, the user walks from Tai Wai Residential Area to Grandeur Shopping Arcade for dining.",
             "In the late morning, the user walks from the Tai Wai Residential Area to Grandeur Shopping Arcade for lunch."
@@ -80,7 +80,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240324_[1252-1338]": {
+    "autolife_j240324_[1252-1338]": {
         "reference_journals": [
             "In the early afternoon, the user cycles along the coast from Tai Wai to Sha Tin Park.",
             "In the early afternoon, the user rides a bicycle along the seaside from Tai Wai to Sha Tin Park."
@@ -89,7 +89,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240324_[1339-1435]": {
+    "autolife_j240324_[1339-1435]": {
         "reference_journals": [
             "In the early afternoon, the user cycles along the coast from Hong Kong Science Park through Tai Po Waterfront Park, enjoying the scenic views.",
             "In the early afternoon, the user cycles from Hong Kong Science Park to Tai Po Waterfront Park, taking in the scenic coastal views along the way."
@@ -98,7 +98,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240324_[1446-1658]": {
+    "autolife_j240324_[1446-1658]": {
         "reference_journals": [
             "In the afternoon, the user walks in Tai Po Waterfront Park before taking a vehicle to transit.",
             "In the afternoon, the user browses Tai Po Waterfront Park and then takes a vehicle to transit."
@@ -107,7 +107,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240413_[1741-1830]": {
+    "autolife_j240413_[1741-1830]": {
         "reference_journals": [
             "In the late afternoon, the user commutes from Choi Hung MTR Station, transitions through Diamond Hill, and waits for a period at the Sung Wong Toi MTR station.",
             "In the late afternoon, the user travels from Choi Hung MTR Station, transfers at Diamond Hill, and spends some time waiting at Sung Wong Toi MTR station."
@@ -116,7 +116,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240413_[1831-1930]": {
+    "autolife_j240413_[1831-1930]": {
         "reference_journals": [
             "In the evening, the user explores dining restaurants and then has dinner near Kowloon Walled City Park.",
             "In the evening, the user checks out dining restaurants and then enjoys a meal near Kowloon Walled City Park."
@@ -125,7 +125,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240413_[1932-2007]": {
+    "autolife_j240413_[1932-2007]": {
         "reference_journals": [
             "In the evening, the user visits and enjoys leisurely walks around Kowloon Walled City Park and Carpenter Road Park in Kowloon City.",
             "In the evening, the user strolls through Kowloon Walled City Park and Carpenter Road Park in Kowloon City, enjoying a leisurely walk."
@@ -134,7 +134,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240413_[2009-2106]": {
+    "autolife_j240413_[2009-2106]": {
         "reference_journals": [
             "In the evening, the user walks through Kowloon Walled City Park and Carpenter Road Park.",
             "In the evening, the user explores Kowloon Walled City Park and Carpenter Road Park."
@@ -143,7 +143,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240413_[2107-2224]": {
+    "autolife_j240413_[2107-2224]": {
         "reference_journals": [
             "In the evening, the user leaves Kowloon Walled City Park and takes the MTR from Sung Wong Toi Station to Diamond Hill Station.",
             "In the evening, the user departs from Kowloon Walled City Park and travels by MTR from Sung Wong Toi Station to Diamond Hill Station."
@@ -152,7 +152,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240414_[1343-1451]": {
+    "autolife_j240414_[1343-1451]": {
         "reference_journals": [
             "In the afternoon, the user visits Hap Mun Bay Beach, engaging in beach activities, then hikes to Black Peak around Kiu Tsui Country Park.",
             "In the afternoon, the user enjoys beach activities at Hap Mun Bay Beach before hiking to Black Peak in Kiu Tsui Country Park."
@@ -161,7 +161,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240414_[1453-1605]": {
+    "autolife_j240414_[1453-1605]": {
         "reference_journals": [
             "In the afternoon, the user hikes on Sharp Island, passing through trails, beaches, and green spaces.",
             "In the afternoon, the user explores Sharp Island by hiking along its trails, beaches, and green spaces."
@@ -170,7 +170,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240414_[1607-1711]": {
+    "autolife_j240414_[1607-1711]": {
         "reference_journals": [
             "In the late afternoon, the user starts walking on Sharp Island, takes a ferry to Sai Kung Pier, and then takes a vehicle to their destination.",
             "In the late afternoon, the user walks on Sharp Island, followed by a ferry ride to Sai Kung Pier, and then travels by vehicle to their destination."
@@ -179,7 +179,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240415_[0946-1012]": {
+    "autolife_j240415_[0946-1012]": {
         "reference_journals": [
             "In the morning, the user walks through residential and educational areas to reach the Hong Kong University of Science and Technology (HKUST) campus. Then they remain stationary for work and study.",
             "In the morning, the user walks through residential and educational areas to reach the Hong Kong University of Science and Technology (HKUST) campus for working and studying."
@@ -188,7 +188,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240415_[1013-1029]": {
+    "autolife_j240415_[1013-1029]": {
         "reference_journals": [
             "In the morning, the user remains stationary on the HKUST campus for studying and working, with occasional breaks.",
             "In the morning, the user stays on the HKUST campus for studying and working, taking occasional breaks."
@@ -197,7 +197,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240419_[1732-1812]": {
+    "autolife_j240419_[1732-1812]": {
         "reference_journals": [
             "In the late afternoon, the user leaves the Hong Kong University of Science and Technology (HKUST) and commutes to Tseung Kwan O for shopping.",
             "In the late afternoon, the user departs from the Hong Kong University of Science and Technology (HKUST) and travels to Tseung Kwan O for shopping."
@@ -206,7 +206,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240419_[1813-1843]": {
+    "autolife_j240419_[1813-1843]": {
         "reference_journals": [
             "In the early evening, the user spends time in Park Central and dines at the Twelve Flavors restaurant.",
             "In the early evening, the user visits Park Central and has dinner at the Twelve Flavors restaurant."
@@ -215,7 +215,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240419_[1845-1915]": {
+    "autolife_j240419_[1845-1915]": {
         "reference_journals": [
             "In the early evening, after a meal at the Twelve Flavors restaurant in Park Central, the user commutes to Hang Hau for transit.",
             "In the early evening, following a meal at the Twelve Flavors restaurant in Park Central, the user travels to Hang Hau for transit."
@@ -224,7 +224,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240419_[1916-1934]": {
+    "autolife_j240419_[1916-1934]": {
         "reference_journals": [
             "In the evening, the user takes a bus from Hang Hau to the Hong Kong University of Science and Technology (HKUST) for studying and working.",
             "In the evening, the user travels by bus from Hang Hau to the Hong Kong University of Science and Technology (HKUST) to study and work."
@@ -233,7 +233,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240430_[1644-1722]": {
+    "autolife_j240430_[1644-1722]": {
         "reference_journals": [
             "In the late afternoon, the user studies and works at the Hong Kong University of Science and Technology (HKUST). Then, they take a bus to Hang Hau Village for dining.",
             "In the late afternoon, the user spends time studying and working at the Hong Kong University of Science and Technology (HKUST), followed by a bus ride to Hang Hau Village for dinner."
@@ -242,7 +242,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240430_[1723-1823]": {
+    "autolife_j240430_[1723-1823]": {
         "reference_journals": [
             "In the late afternoon, after a meal, the user takes a bus to the Hong Kong University of Science and Technology (HKUST) for studying and working.",
             "In the late afternoon, after dining, the user travels by bus to the Hong Kong University of Science and Technology (HKUST) to study and work."
@@ -251,7 +251,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240503_[1853-1937]": {
+    "autolife_j240503_[1853-1937]": {
         "reference_journals": [
             "In the early evening, the user takes public transport to Kowloon Tong MTR Station.",
             "In the early evening, the user travels to Kowloon Tong MTR Station using public transport."
@@ -260,7 +260,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240503_[1938-2010]": {
+    "autolife_j240503_[1938-2010]": {
         "reference_journals": [
             "In the evening, the user takes the MTR from Kowloon Tong Station to Lo Wu Station to cross a border.",
             "In the evening, the user travels by MTR from Kowloon Tong to Lo Wu Station to cross the border."
@@ -269,7 +269,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240513_[0752-0940]": {
+    "autolife_j240513_[0752-0940]": {
         "reference_journals": [
             "In the morning, the user takes a vehicle to the Hong Kong Science and Technology Parks (HKSTP) and attends the IoT-related event, CPS-IoT Week.",
             "In the morning, the user travels by vehicle to the Hong Kong Science and Technology Parks (HKSTP) to attend the IoT-related event, CPS-IoT Week."
@@ -278,7 +278,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240513_[0941-1318]": {
+    "autolife_j240513_[0941-1318]": {
         "reference_journals": [
             "From morning to early afternoon, the user attends the IoT-related event, CPS-IoT Week, at the Hong Kong Science and Technology Parks (HKSTP).",
             "From morning until early afternoon, the user participates in the IoT-related event, CPS-IoT Week, at the Hong Kong Science and Technology Parks (HKSTP)."
@@ -287,7 +287,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240513_[1332-1447]": {
+    "autolife_j240513_[1332-1447]": {
         "reference_journals": [
             "In the early afternoon, the user attends the IoT-related event, CPS-IoT Week, at the Hong Kong Science and Technology Parks (HKSTP).",
             "In the early afternoon, the user participates in CPS-IoT Week, an IoT-related event at the Hong Kong Science and Technology Parks (HKSTP)."
@@ -296,7 +296,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240513_[1513-2053]": {
+    "autolife_j240513_[1513-2053]": {
         "reference_journals": [
             "In the afternoon, the user attends the IoT-related event, CPS-IoT Week, at the Hong Kong Science and Technology Parks (HKSTP). Later iIn the evening, the user transits by the Chinese University of Hong Kong (CUHK) and finally takes public transportation home to Tai Po Tsai.",
             "In the afternoon, the user participates in the IoT-related event, CPS-IoT Week, at the Hong Kong Science and Technology Parks (HKSTP). IIn the evening, they transit via the Chinese University of Hong Kong (CUHK) and then take public transportation to their home in Tai Po Tsai."
@@ -305,7 +305,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240515_[0830-1126]": {
+    "autolife_j240515_[0830-1126]": {
         "reference_journals": [
             "In the morning, the user takes public transportation from home to the Hong Kong Science and Technology Parks (HKSTP), where they attend the IoT-related event, CPS-IoT Week, for the entire morning.",
             "In the morning, the user travels by public transportation from home to the Hong Kong Science and Technology Parks (HKSTP) to attend the IoT-related event, CPS-IoT Week, for the whole morning."
@@ -314,7 +314,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240515_[1224-1714]": {
+    "autolife_j240515_[1224-1714]": {
         "reference_journals": [
             "The user spends the whole afternoon at the Hong Kong Science and Technology Parks (HKSTP), attending the IoT-related event, CPS-IoT Week.",
             "The user attends the IoT-related event, CPS-IoT Week, at the Hong Kong Science and Technology Parks (HKSTP) for the entire afternoon."
@@ -323,7 +323,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240515_[1715-2126]": {
+    "autolife_j240515_[1715-2126]": {
         "reference_journals": [
             "In the early evening, after attending the IoT-related event, CPS-IoT Week, at the Hong Kong Science and Technology Parks (HKSTP), the user commutes to a lake house where they spend several hours having dinner and socializing.",
             "In the early evening, following the IoT-related event, CPS-IoT Week, at the Hong Kong Science and Technology Parks (HKSTP), the user commutes to a lake house to enjoy dinner and socializing for several hours."
@@ -332,7 +332,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240515_[2127-2332]": {
+    "autolife_j240515_[2127-2332]": {
         "reference_journals": [
             "In the evening, after having a meal and socializing at a lake house, the user commutes home.",
             "In the evening, following a meal and socializing at a lake house, the user travels home."
@@ -341,7 +341,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240602_[1959-2012]": {
+    "autolife_j240602_[1959-2012]": {
         "reference_journals": [
             "In the early evening, the user relaxes at home.",
             "In the early evening, the user spends time relaxing at home."
@@ -350,7 +350,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240615_[1937-2035]": {
+    "autolife_j240615_[1937-2035]": {
         "reference_journals": [
             "In the evening, the user enjoys a comedy show at a shopping mall named hua square.",
             "In the evening, the user attends a comedy show at a shopping plaza."
@@ -359,7 +359,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240615_[2106-2151]": {
+    "autolife_j240615_[2106-2151]": {
         "reference_journals": [
             "In the evening, the user browses a shopping mall.",
             "In the evening, the user explores a shopping mall."
@@ -368,7 +368,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240616_[1600-1639]": {
+    "autolife_j240616_[1600-1639]": {
         "reference_journals": [
             "In the late afternoon, the user takes a taxi to a karaoke venue and spends time singing songs.",
             "In the late afternoon, the user takes a taxi to a KTV near Taihao Lake and enjoys singing there."
@@ -377,7 +377,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240617_[1455-1603]": {
+    "autolife_j240617_[1455-1603]": {
         "reference_journals": [
             "In the afternoon, the user commutes from Sheung Shui MTR Station to home via public transportation.",
             "In the afternoon, the user travels from Sheung Shui MTR Station to home using public transportation."
@@ -386,7 +386,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240621_[1720-1855]": {
+    "autolife_j240621_[1720-1855]": {
         "reference_journals": [
             "In the afternoon, the user leaves the Hong Kong University of Science and Technology (HKUST) and goes to Sai Kung, where they have a seafood dinner at Hung Kee Seafood Restaurant.",
             "In the afternoon, the user departs from the Hong Kong University of Science and Technology (HKUST) to Sai Kung, where they enjoy a seafood dinner at Hung Kee Seafood Restaurant."
@@ -395,7 +395,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240621_[1856-2011]": {
+    "autolife_j240621_[1856-2011]": {
         "reference_journals": [
             "In the early evening, after enjoying dinner at Hung Kee Seafood Restaurant in Sai Kung, the user walks along the coast and then commutes to the Hong Kong University of Science and Technology (HKUST).",
             "In the early evening, following dinner at Hung Kee Seafood Restaurant in Sai Kung, the user takes a walk along the coast before commuting to the Hong Kong University of Science and Technology (HKUST)."
@@ -404,7 +404,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240625_[1708-1755]": {
+    "autolife_j240625_[1708-1755]": {
         "reference_journals": [
             "In the late afternoon, the user walks from the Hong Kong University of Science and Technology (HKUST) to Fab Bar & Grill along Clear Water Bay Road, where they have dinner.",
             "In the late afternoon, the user walks from the Hong Kong University of Science and Technology (HKUST) to Fab Bar & Grill on Clear Water Bay Road for dinner."
@@ -413,7 +413,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240625_[1756-1851]": {
+    "autolife_j240625_[1756-1851]": {
         "reference_journals": [
             "In the late afternoon, after having dinner at Fab Bar & Grill, the user walks to the Hong Kong University of Science and Technology (HKUST) to study.",
             "In the late afternoon, following dinner at Fab Bar & Grill, the user walks to the Hong Kong University of Science and Technology (HKUST) for studying."
@@ -422,7 +422,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240705_[1640-1924]": {
+    "autolife_j240705_[1640-1924]": {
         "reference_journals": [
             "In the late afternoon, the user commutes from the Hong Kong University of Science and Technology (HKUST) to the commercial district in Tsim Sha Tsui, where they have dinner.",
             "In the late afternoon, the user travels from the Hong Kong University of Science and Technology (HKUST) to the commercial district in Tsim Sha Tsui for dinner."
@@ -431,7 +431,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240705_[1925-2010]": {
+    "autolife_j240705_[1925-2010]": {
         "reference_journals": [
             "In the evening, after having a meal, the user leisurely walks through the urban districts of Tsim Sha Tsui. Then, they browse K11 Musea and the Avenue of Stars.",
             "In the evening, following a meal, the user takes a leisurely walk through the urban districts of Tsim Sha Tsui. They then explore K11 Musea and the Avenue of Stars."
@@ -440,7 +440,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240705_[2011-2040]": {
+    "autolife_j240705_[2011-2040]": {
         "reference_journals": [
             "In the evening, the user walks along the waterfront area in Tsim Sha Tsui and explores the Avenue of Stars. Then, they browse the Harbour City shopping mall.",
             "In the evening, the user strolls along the waterfront in Tsim Sha Tsui and visits the Avenue of Stars. Afterwards, they browse the Harbour City shopping mall."
@@ -449,7 +449,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240705_[2041-2135]": {
+    "autolife_j240705_[2041-2135]": {
         "reference_journals": [
             "In the evening, after exploring the urban districts of Tsim Sha Tsui, the user commutes to Choi Hung MTR Station.",
             "In the evening, following an exploration of the urban districts in Tsim Sha Tsui, the user travels to Choi Hung MTR Station."
@@ -458,7 +458,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240706_[1711-1830]": {
+    "autolife_j240706_[1711-1830]": {
         "reference_journals": [
             "In the late afternoon, the user travels from home to the Wan Chai area by public transportation, where they have dinner.",
             "In the late afternoon, the user commutes from home to the Wan Chai area via public transportation for dinner."
@@ -467,7 +467,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240706_[1831-1948]": {
+    "autolife_j240706_[1831-1948]": {
         "reference_journals": [
             "In the evening, the user spends time and has a meal in the Wan Chai.",
             "In the evening, the user enjoys their time and has dinner in the Wan Chai."
@@ -476,7 +476,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240706_[1949-2018]": {
+    "autolife_j240706_[1949-2018]": {
         "reference_journals": [
             "In the early evening, the user leisurely walks through the urban districts in the Wan Chai area.",
             "In the early evening, the user enjoys a city walk through the urban districts of Wan Chai."
@@ -485,7 +485,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240706_[2020-2136]": {
+    "autolife_j240706_[2020-2136]": {
         "reference_journals": [
             "In the evening, the user visits Golden Bauhinia Square and the Hong Kong Convention and Exhibition Centre. Then, they walk to Exhibition Centre MTR Station, commute to Choi Hung MTR Station, and take a bus home.",
             "In the evening, the user explores Golden Bauhinia Square and the Hong Kong Convention and Exhibition Centre. Afterwards, they walk to Exhibition Centre MTR Station, travel to Choi Hung MTR Station, and then take a bus home."
@@ -494,7 +494,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240726_[1759-2029]": {
+    "autolife_j240726_[1759-2029]": {
         "reference_journals": [
             "In the evening, the user leaves the Hong Kong University of Science and Technology (HKUST) and goes to a hotpot restaurant in the Mong Kok area for dinner with friends.",
             "In the evening, the user departs from the Hong Kong University of Science and Technology (HKUST) to meet friends for dinner at a hotpot restaurant in the Mong Kok area."
@@ -503,7 +503,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240726_[2030-2219]": {
+    "autolife_j240726_[2030-2219]": {
         "reference_journals": [
             "In the evening, after having dinner with friends, the user returns home by public transportation.",
             "In the evening, following dinner with friends, the user takes public transportation to return home."
@@ -512,7 +512,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240809_[1356-1459]": {
+    "autolife_j240809_[1356-1459]": {
         "reference_journals": [
             "In the afternoon, the user commutes from the Hong Kong University of Science and Technology (HKUST) to the Central District of Hong Kong by bus and MTR for an appointment.",
             "In the afternoon, the user travels from the Hong Kong University of Science and Technology (HKUST) to the Central District of Hong Kong using a combination of bus and MTR to attend an appointment."
@@ -521,7 +521,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j240809_[1507-1809]": {
+    "autolife_j240809_[1507-1809]": {
         "reference_journals": [
             "In the late afternoon, the user travels from the Central District of Hong Kong to Hang Hau by public transport. They then browse the shopping mall in East Point City, enjoying a drink and a meal. Afterward, the user returns to the Hong Kong University of Science and Technology (HKUST) campus in the early evening.",
             "In the late afternoon, the user commutes from the Central District of Hong Kong to Hang Hau via public transport. After browsing the shopping mall in East Point City and having a drink and meal, the user heads back to the Hong Kong University of Science and Technology (HKUST) campus in the early evening."
@@ -530,7 +530,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j241220_[1821-2007]": {
+    "autolife_j241220_[1821-2007]": {
         "reference_journals": [
             "In the evening, the user travels from home to a commercial area, enjoys a dinner, and then relaxes with a spa at Tai Yi Spa.",
             "In the evening, the user leaves home, goes to a urban for dinner, and then walks to Tai Yi Spa and enjoys a spa there."
@@ -539,7 +539,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j241220_[2008-2128]": {
+    "autolife_j241220_[2008-2128]": {
         "reference_journals": [
             "In the evening, the user spend some time at Tai Yi Spa and then goes out for a meal.",
             "In the evening, the user visits Tai Yi Spa and later heads out for dinner."
@@ -548,7 +548,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j241221_[1204-1348]": {
+    "autolife_j241221_[1204-1348]": {
         "reference_journals": [
             "At mid-day, the user leaves home, goes to a shopping mall, and has a meal with friends at Chef Fei.",
             "In the early afternoon, the user leaves home, heads to a shopping plaza where they have lunch at Chef Fei."
@@ -557,7 +557,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j241221_[1406-1756]": {
+    "autolife_j241221_[1406-1756]": {
         "reference_journals": [
             "In the afternoon, the user spends time enjoying leisurely activities with friends at a tea house. As evening approaches, they transition to exploring different dining options.",
             "During the afternoon, the user relaxes with friends at a tea house. Later iIn the evening, they move on to discovering a variety of dining choices in an urban area."
@@ -566,7 +566,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j241221_[1757-2121]": {
+    "autolife_j241221_[1757-2121]": {
         "reference_journals": [
             "In the early evening, the user visits Shenzhen College of International Education and then enjoys a meal. As the evening progresses, the user walks home.",
             "In the early evening, the user explores Shenzhen College of International Education before having a dinner. Later iIn the evening, they head home on foot."
@@ -575,7 +575,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j241222_[0833-1219]": {
+    "autolife_j241222_[0833-1219]": {
         "reference_journals": [
             "In the morning, the user leaves home and commutes to Peking University Shenzhen Hospital for a health check-up. Afterward, they travel to a Old Bowl restaurant for lunch.",
             "In the morning, the user leaves home and heads to Peking University Shenzhen Hospital for a health examination. Following that, they have a meal at Old Bowl Restaurant"
@@ -584,7 +584,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j241222_[1220-1658]": {
+    "autolife_j241222_[1220-1658]": {
         "reference_journals": [
             "In the mid-day, after having a meal at Old Bowl Restaurant, the user walks back home and spends the whole afternoon working and resting.",
             "In the early afternoon, the user first has lunch at Old Bowl Restaurant. Then, they walk home and spend the rest of the afternoon resting and working."
@@ -593,7 +593,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j241222_[1659-1936]": {
+    "autolife_j241222_[1659-1936]": {
         "reference_journals": [
             "In the late afternoon and early evening, the user remains at home, either working or relaxing.",
             "From late afternoon to early evening, the user stays at home, working or resting."
@@ -602,7 +602,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j241222_[1937-2229]": {
+    "autolife_j241222_[1937-2229]": {
         "reference_journals": [
             "In the evening, the user spends the whole night at home, resting.",
             "In the evening, the user stays at home and spends the night resting."
@@ -611,7 +611,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j241223_[0820-1211]": {
+    "autolife_j241223_[0820-1211]": {
         "reference_journals": [
             "In the morning, the user leaves home and takes public transport to the Hong Kong University of Science and Technology (HKUST), where they study and work.",
             "In the early morning, the user leaves home and commutes via MTR and bus. By mid-day, they arrive at the Hong Kong University of Science and Technology (HKUST) to engage in research activities."
@@ -620,7 +620,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j241223_[1212-1721]": {
+    "autolife_j241223_[1212-1721]": {
         "reference_journals": [
             "In the afternoon, the user spends the entire afternoon at the Hong Kong University of Science and Technology (HKUST) engaging in research activities.",
             "In the afternoon, the user studies and works at the Hong Kong University of Science and Technology (HKUST) for the entire afternoon."
@@ -629,7 +629,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j241223_[1722-2229]": {
+    "autolife_j241223_[1722-2229]": {
         "reference_journals": [
             "In the evening, the user spends the most time at the Hong Kong University of Science and Technology (HKUST) engaging in research activities.",
             "In the evening, the user studies and works at the Hong Kong University of Science and Technology (HKUST) for the entire evening."
@@ -638,7 +638,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j241224_[1219-1551]": {
+    "autolife_j241224_[1219-1551]": {
         "reference_journals": [
             "In the afternoon, the user has a meal and then spends the entire time at the Hong Kong University of Science and Technology (HKUST) engaging in research activities.",
             "In the afternoon, the user enjoys a meal before dedicating the rest of the time at the Hong Kong University of Science and Technology (HKUST) to research activities."
@@ -647,7 +647,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j241224_[1552-1928]": {
+    "autolife_j241224_[1552-1928]": {
         "reference_journals": [
             "In the afternoon, the user spends most of the time at the Hong Kong University of Science and Technology (HKUST), working and studying until early night.",
             "In the afternoon, the user dedicates most of their time to work and study at the Hong Kong University of Science and Technology (HKUST) until early evening."
@@ -656,7 +656,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j241227_[2125-2238]": {
+    "autolife_j241227_[2125-2238]": {
         "reference_journals": [
             "In the evening, the user leaves home and visits a shopping mall, where they browse the China Resources Vanguard (CR Vanguard) supermarket. Afterward, they return home.",
             "In the evening, the user heads out, visits a shopping mall, and explores the the China Resources Vanguard (CR Vanguard) supermarket before returning home."
@@ -665,7 +665,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j241229_[0932-1117]": {
+    "autolife_j241229_[0932-1117]": {
         "reference_journals": [
             "In the morning, the user departs from home to Peking University Shenzhen Hospital to see the doctor. Afterward, they commute to a shopping mall, where they have lunch at a Hutchison restaurant",
             "In the morning, the user leaves home for Peking University Shenzhen Hospital for a doctor's appointment. Later, they head to a shopping mall and enjoy a meal at a Hutchison restaurant."
@@ -674,7 +674,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j241229_[1118-1204]": {
+    "autolife_j241229_[1118-1204]": {
         "reference_journals": [
             "In the midday, the user visits a shopping mall and browses the China Resources Vanguard (CR Vanguard) supermarket. After that, they walk back home.",
             "In the midday, the user visits a shopping mall to explore the China Resources Vanguard (CR Vanguard) supermarket. Afterwards, they walk home."
@@ -683,7 +683,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j241230_[1711-1737]": {
+    "autolife_j241230_[1711-1737]": {
         "reference_journals": [
             "In the late afternoon, the user stays at home, resting.",
             "In the early evening, the user relaxes at home."
@@ -692,7 +692,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j241230_[2000-2202]": {
+    "autolife_j241230_[2000-2202]": {
         "reference_journals": [
             "In the evening, the user leaves home, takes the subway to Shenzhen North Station to pick up friends, and then takes a taxi to a Hongxing Beef Restaurant for dinner.",
             "In the evening, the user heads out, takes the subway to Shenzhen North Station to meet friends, and then grabs a taxi to Hongxing Beef Restaurant for dinner."
@@ -701,7 +701,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j241230_[2203-2345]": {
+    "autolife_j241230_[2203-2345]": {
         "reference_journals": [
             "In the late evening, the user has dinner at Hongxing Beef Restaurant and then goes back home, resting.",
             "In the late evening, the user dines at Hongxing Beef Restaurant before taking a taxi and walking the rest of the way home."
@@ -710,7 +710,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j241231_[1830-2015]": {
+    "autolife_j241231_[1830-2015]": {
         "reference_journals": [
             "In the evening, the user leaves home and takes a taxi to a Japanese Restaurant for dinner.",
             "In the evening, the user walks and then takes a taxi to a Japanese Restaurant for dinner."
@@ -719,7 +719,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j241231_[2038-2319]": {
+    "autolife_j241231_[2038-2319]": {
         "reference_journals": [
             "In the evening, the user takes a vehicle to Nanshan Culture & Sports Center to attend a cultural show.",
             "In the evening, the user travels to Nanshan Culture & Sports Center to watch a cultural show."
@@ -728,7 +728,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j241231_[2320-0127]": {
+    "autolife_j241231_[2320-0127]": {
         "reference_journals": [
             "In the late evening, the user takes a vehicle back home after enjoying a show at Nanshan Culture & Sports Center.",
             "In the late evening, after watching a show at Nanshan Culture & Sports Center, the user travels back home."
@@ -737,7 +737,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j250101_[1047-1217]": {
+    "autolife_j250101_[1047-1217]": {
         "reference_journals": [
             "In the morning, the user takes a vehicle and then walks to have lunch at the Hunan restaurant Nian Xiang Xian.",
             "In the morning, the user travels by vehicle and walks the rest of the way to have lunch at Nian Xiang Xian, a Hunan restaurant."
@@ -746,7 +746,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j250101_[1218-1319]": {
+    "autolife_j250101_[1218-1319]": {
         "reference_journals": [
             "At midday, the user walks to Ascending Cloud Path for a hike after having lunch at Nian Xiang Xian, a Hunan restaurant.",
             "Around midday, after dining at Nian Xiang Xian, a Hunan restaurant, the user heads to Ascending Cloud Path for a hike."
@@ -755,7 +755,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j250101_[1741-1855]": {
+    "autolife_j250101_[1741-1855]": {
         "reference_journals": [
             "In the late afternoon, the user has dinner at an urban street food area.",
             "In the late afternoon, the user enjoys a meal at a street food market."
@@ -764,7 +764,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j250101_[1856-2018]": {
+    "autolife_j250101_[1856-2018]": {
         "reference_journals": [
             "In the early evening, the user leaves an urban street food area and takes a vehicle back home.",
             "In the late afternoon, the user departs from a street food area in the city and travels home by vehicle."
@@ -773,7 +773,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j250103_[0932-1156]": {
+    "autolife_j250103_[0932-1156]": {
         "reference_journals": [
             "In the morning, the user leaves home and takes a vehicle to Peking University Shenzhen Hospital for a doctor's visit, then takes a vehicle back home.",
             "In the morning, the user travels by vehicle to Peking University Shenzhen Hospital for a medical appointment and then returns home the same way."
@@ -782,7 +782,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j250103_[1157-1438]": {
+    "autolife_j250103_[1157-1438]": {
         "reference_journals": [
             "In the afternoon, the user stays at home to rest and work before traveling to Peking University Shenzhen Hospital for a medical appointment.",
             "In the afternoon, the user spends time at home resting and working, then heads to Peking University Shenzhen Hospital for a check-up."
@@ -791,7 +791,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j250103_[1439-1559]": {
+    "autolife_j250103_[1439-1559]": {
         "reference_journals": [
             "In the afternoon, the user leaves Peking University Shenzhen Hospital and takes a vehicle to Excellence Center shopping mall, where they visit jewelry stores for shopping.",
             "In the afternoon, the user departs from Peking University Shenzhen Hospital and travels to Excellence Center shopping mall to browse and shop at jewelry stores."
@@ -800,7 +800,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j250103_[1600-1735]": {
+    "autolife_j250103_[1600-1735]": {
         "reference_journals": [
             "In the afternoon, the user departs from Excellence Center shopping mall and takes a vehicle home.",
             "In the afternoon, the user leaves Excellence Center shopping mall and travels home by vehicle."
@@ -809,7 +809,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j250103_[1736-1910]": {
+    "autolife_j250103_[1736-1910]": {
         "reference_journals": [
             "In the early evening, the user departs from home and takes a vehicle to San Yuan Garden Banquet restaurant for dinner.",
             "In the early evening, the user leaves from home and takes a vehicle to San Yuan Garden Banquet restaurant, where they enjoys a meal."
@@ -818,7 +818,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j250103_[1911-2147]": {
+    "autolife_j250103_[1911-2147]": {
         "reference_journals": [
             "In the evening, the user departs from San Yuan Garden Banquet restaurant and takes a vehicle to Xintian Century Business Center to watch a film at Zongheng International Cinema.",
             "In the evening, the user leaves San Yuan Garden Banquet restaurant and travels to Xintian Century Business Center to see a movie at Zongheng International Cinema."
@@ -827,7 +827,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j250103_[2148-2324]": {
+    "autolife_j250103_[2148-2324]": {
         "reference_journals": [
             "In the late evening, the user leaves Zongheng International Cinema and travels back home for resting.",
             "In the late evening, the user walks and take a vehicle home from Zongheng International Cinema to relax."
@@ -836,7 +836,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j250105_[1428-1614]": {
+    "autolife_j250105_[1428-1614]": {
         "reference_journals": [
             "In the afternoon, the user leaves home and takes a vehicle to Sam's Club, where they browse and shop.",
             "In the afternoon, the user travels from home to Sam's Club by vehicle to do some shopping."
@@ -845,7 +845,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j250105_[1615-2059]": {
+    "autolife_j250105_[1615-2059]": {
         "reference_journals": [
             "In the late afternoon, the user shops at Sam's Club and then takes a vehicle back home, where they rest until night.",
             "In the late afternoon, the user finishes shopping at Sam's Club and returns home by vehicle, spending the rest of the evening resting."
@@ -854,7 +854,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j250106_[1001-1226]": {
+    "autolife_j250106_[1001-1226]": {
         "reference_journals": [
             "In the morning, the user takes public transport, including the MTR and bus, from home to the HKUST campus, where they work and study.",
             "In the morning, the user commutes from home to the HKUST campus by MTR and bus to study and work."
@@ -863,7 +863,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j250106_[1227-1557]": {
+    "autolife_j250106_[1227-1557]": {
         "reference_journals": [
             "In the afternoon, the user stays on the HKUST campus, working and studying.",
             "In the afternoon, the user remains at HKUST to focus on work and studies."
@@ -872,7 +872,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j250111_[1616-1745]": {
+    "autolife_j250111_[1616-1745]": {
         "reference_journals": [
             "In the afternoon, the user takes a vehicle from home to visit Honey Park, where they walk and enjoy leisure activities. Afterwards, they browse a shopping mall.",
             "In the afternoon, the user leaves home by vehicle to visit Honey Park for a walk and some relaxing activities. Later, they explore a nearby shopping mall."
@@ -881,7 +881,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j250111_[1646-1930]": {
+    "autolife_j250111_[1646-1930]": {
         "reference_journals": [
             "In the late afternoon, the user leaves Honey Park by vehicle and has a beef meal at a food spot.",
             "In the late afternoon, the user takes a vehicle from Honey Park and enjoys a beef meal at a food street."
@@ -890,7 +890,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j250111_[1931-2131]": {
+    "autolife_j250111_[1931-2131]": {
         "reference_journals": [
             "In the evening, the user walks from a food street to KK Shopping Mall for shopping.",
             "In the evening, the user walks from a food street to KK Shopping Mall to do some shopping."
@@ -899,7 +899,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j250111_[2132-2214]": {
+    "autolife_j250111_[2132-2214]": {
         "reference_journals": [
             "In the late evening, the user finishes shopping at KK Shopping Mall and then takes a vehicle back home.",
             "In the late evening, after shopping at KK Shopping Mall, the user heads home by vehicle."
@@ -908,7 +908,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j250112_[1814-2034]": {
+    "autolife_j250112_[1814-2034]": {
         "reference_journals": [
             "In the evening, the user takes a vehicle to Galaxy Center, where they have dinner at the Xiao Long Fan Da Jiang restaurant. Afterwards, they visit and browse Wongtee Plaza.",
             "In the evening, the user travels by vehicle to Galaxy Center, dines at Xiao Long Fan Da Jiang restaurant, and then explores Wongtee Plaza."
@@ -917,7 +917,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_j250112_[2035-2314]": {
+    "autolife_j250112_[2035-2314]": {
         "reference_journals": [
             "In the evening, the user browses shopping sites including Galaxy Center and Link City, and then takes a vehicle back home.",
             "In the evening, the user visits shopping areas like Galaxy Center and Link City before heading home by vehicle."
@@ -926,7 +926,7 @@
         "experimenter": "A",
         "device": "j"
     },
-    "mobile_a241107_[1802-1819]": {
+    "autolife_a241107_[1802-1819]": {
         "reference_journals": [
             "In the early evening, the user stays at home, relaxing.",
             "In the late afternoon, the user stays at home, relaxing."
@@ -935,7 +935,7 @@
         "experimenter": "A",
         "device": "a"
     },
-    "mobile_a241108_[1704-1752]": {
+    "autolife_a241108_[1704-1752]": {
         "reference_journals": [
             "In the afternoon, the user leaves the the hong kong university of science and technology (hkust) campus, takes a bus to Choi Hung, and then transfers to the MTR to reach Kowloon Tong.",
             "In the afternoon, the user departs from the hong kong university of science and technology (hkust), rides a bus to Choi Hung, and continues the journey to Kowloon Tong by MTR."
@@ -944,7 +944,7 @@
         "experimenter": "A",
         "device": "a"
     },
-    "mobile_a241209_[1307-1408]": {
+    "autolife_a241209_[1307-1408]": {
         "reference_journals": [
             "In the afternoon, the user takes an MTR train from Lok Ma Chau Station to Choi Hung Station.",
             "In the afternoon, the user takes subway from Lok Ma Chau MTR Station to Choi Hung MTR Station."
@@ -953,7 +953,7 @@
         "experimenter": "A",
         "device": "a"
     },
-    "mobile_a241212_[1355-1734]": {
+    "autolife_a241212_[1355-1734]": {
         "reference_journals": [
             "In the afternoon, the user stays on the Hong Kong University of Science and Technology (HKUST) campus, working and studying.",
             "In the afternoon, the user remains at the Hong Kong University of Science and Technology (HKUST) campus to focus on work and academic activities."
@@ -962,7 +962,7 @@
         "experimenter": "A",
         "device": "a"
     },
-    "mobile_a241212_[1846-1948]": {
+    "autolife_a241212_[1846-1948]": {
         "reference_journals": [
             "In the afternoon, the user departs from the Hong Kong University of Science and Technology (HKUST) campus by vehicle to a dinning district, where they have dinner at a Thai restaurant.",
             "In the afternoon, the user leaves the the Hong Kong University of Science and Technology (HKUST) campus and travels by vehicle to a food street, enjoying dinner at a Thai cuisine restaurant."
@@ -971,7 +971,7 @@
         "experimenter": "A",
         "device": "a"
     },
-    "mobile_a241212_[1949-2049]": {
+    "autolife_a241212_[1949-2049]": {
         "reference_journals": [
             "In the evening, the user browses a dining area in Sai Kung and then commutes by vehicle to the Hong Kong University of Science and Technology (HKUST) campus after a dinner.",
             "In the evening, after dining, the user browses a dining area in Sai Kung and then commutes to the Hong Kong University of Science and Technology (HKUST) campus by vehicle."
@@ -980,7 +980,7 @@
         "experimenter": "A",
         "device": "a"
     },
-    "mobile_a241221_[1053-1302]": {
+    "autolife_a241221_[1053-1302]": {
         "reference_journals": [
             "In the morning, the user departs from the Hong Kong University of Science and Technology (HKUST), takes a bus and then the MTR to cross the Shenzhen border, and then takes the subway to Link City, where they have lunch at Chef Fei",
             "In the morning, the user leaves the Hong Kong University of Science and Technology (HKUST), travels by bus and MTR to cross into Shenzhen, and then rides the subway to Link City, where they enjoy lunch at Chef Fei."
@@ -989,7 +989,7 @@
         "experimenter": "E",
         "device": "a"
     },
-    "mobile_a241224_[1933-2143]": {
+    "autolife_a241224_[1933-2143]": {
         "reference_journals": [
             "In the evening, the user walks from the Hong Kong University of Science and Technology (HKUST) to Fab Bar & Grill to have dinner with friends, and then walks back to HKUST",
             "In the evening, the user walks from the Hong Kong University of Science and Technology (HKUST) to Fab Bar & Grill for dinner with friends, then returns to campus on foot"
@@ -998,7 +998,7 @@
         "experimenter": "E",
         "device": "a"
     },
-    "mobile_a241226_[1745-2050]": {
+    "autolife_a241226_[1745-2050]": {
         "reference_journals": [
             "In the evening, the user walks from an office at the Hong Kong University of Science and Technology (HKUST) to a lower BBQ site to have a barbecue with friends, and then walks back to the office",
             "In the evening, the user heads on foot from an office at HKUST to a nearby lower BBQ area to enjoy a barbecue with friends, and later walks back to the office"
@@ -1007,7 +1007,7 @@
         "experimenter": "E",
         "device": "a"
     },
-    "mobile_a241229_[1205-1316]": {
+    "autolife_a241229_[1205-1316]": {
         "reference_journals": [
             "In the midnoon, the user takes a bus from the Hong Kong University of Science and Technology (HKUST) to East Point City shopping mall and has lunch at Oreryu Japanese Restaurant. Afterward, they take a bus back to HKUST",
             "In the midday, the user travels by bus from the Hong Kong University of Science and Technology (HKUST) to East Point City shopping mall for lunch at Oreryu Japanese Restaurant, then returns to HKUST by bus"
@@ -1016,7 +1016,7 @@
         "experimenter": "C",
         "device": "a"
     },
-    "mobile_a250112_[1715-1903]": {
+    "autolife_a250112_[1715-1903]": {
         "reference_journals": [
             "In the early evening, the user walks to INTOWN Shopping Center and has a meal at Qian Cong Xiao Chang Music Restaurant",
             "In the early evening, the user strolls to INTOWN Shopping Mall for a meal at Qian Cong Xiao Chang, a music-themed restaurant"
@@ -1025,7 +1025,7 @@
         "experimenter": "C",
         "device": "a"
     },
-    "mobile_a250112_[1904-2157]": {
+    "autolife_a250112_[1904-2157]": {
         "reference_journals": [
             "In the evening, after dinner, the user walks through a commercial area in Shenzhen, passing several shopping centers. They then take the subway to Hong Kong, followed by the MTR and a bus to return to the Hong Kong University of Science and Technology (HKUST)",
             "In the evening, after having dinner, the user strolls through a commercial district in Shenzhen, exploring various shopping centers. Afterwards, they take the subway to Hong Kong, and continue their journey to the Hong Kong University of Science and Technology (HKUST) by MTR and bus"
@@ -1034,7 +1034,7 @@
         "experimenter": "C",
         "device": "a"
     },
-    "mobile_b241231_[1853-2236]": {
+    "autolife_b241231_[1853-2236]": {
         "reference_journals": [
             "In the evening, the user stays at the Hong Kong University of Science and Technology (HKUST) and walks to visit a staff member's home, where they have dinner and socialize",
             "In the evening, the user remains on the the Hong Kong University of Science and Technology (HKUST) campus and visits a staff member's home for dinner and socializing"
@@ -1043,7 +1043,7 @@
         "experimenter": "C",
         "device": "b"
     },
-    "mobile_b250105_[1549-1952]": {
+    "autolife_b250105_[1549-1952]": {
         "reference_journals": [
             "In the afternoon, the user departs from the Hong Kong University of Science and Technology (HKUST) campus to Choi Hung MTR Station, then takes the subway to Mong Kok MTR Station. They spend a long time walking around the city, including visiting the K11 shopping center, and later walk to a sushi restaurant for dinner",
             "In the afternoon, the user leaves the Hong Kong University of Science and Technology (HKUST) campus and heads to Choi Hung MTR Station, then rides the subway to Mong Kok. They enjoy an extended city walk through urban areas, including the K11 shopping center, before walking to a sushi restaurant for dinner"
@@ -1052,7 +1052,7 @@
         "experimenter": "I",
         "device": "b"
     },
-    "mobile_b250112_[1706-1938]": {
+    "autolife_b250112_[1706-1938]": {
         "reference_journals": [
             "In the late afternoon, the user departs from the Hong Kong University of Science and Technology (HKUST) campus and takes a bus to Hang Hau MTR Station. After that, they take the subway to Hong Kong MTR Station and walk to Motorino restaurant for dinner",
             "In the late afternoon, the user leaves the the Hong Kong University of Science and Technology (HKUST) campus, takes a bus to Hang Hau MTR Station, then continues by subway to Hong Kong MTR Station before walking to Motorino restaurant for dinner"
@@ -1061,7 +1061,7 @@
         "experimenter": "I",
         "device": "b"
     },
-    "mobile_b250112_[1939-2142]": {
+    "autolife_b250112_[1939-2142]": {
         "reference_journals": [
             "In the evening, after dining at Motorino restaurant, the user walks to Hong Kong MTR Station, takes the subway to Hang Hau MTR Station, and then boards a bus back to the Hong Kong University of Science and Technology (HKUST) campus",
             "In the evening, following a meal at Motorino restaurant, the user walks to Hong Kong Station, rides the subway to Hang Hau, and then takes a bus back to the HKUST campus"
@@ -1070,7 +1070,7 @@
         "experimenter": "I",
         "device": "b"
     },
-    "mobile_c250109_[1633-1753]": {
+    "autolife_c250109_[1633-1753]": {
         "reference_journals": [
             "In the afternoon, the user takes a bus from the Hong Kong University of Science and Technology (HKUST) campus to Choi Hung MTR Station, then takes the subway to the Hong Kong immigration border.",
             "In the afternoon, the user leaves the Hong Kong University of Science and Technology (HKUST) campus and takes a bus to Choi Hung MTR Station, and then takes MRT to the Hong Kong border area. "
@@ -1079,7 +1079,7 @@
         "experimenter": "A",
         "device": "c"
     },
-    "mobile_c250110_[1000-1024]": {
+    "autolife_c250110_[1000-1024]": {
         "reference_journals": [
             "In the morning, the user takes a vehicle from home to peking university shenzhen hospital for an appointment with doctor",
             "In the morning, the user travels by vehicle from home to visit a doctor at Peking University Shenzhen Hospital"
@@ -1088,7 +1088,7 @@
         "experimenter": "B",
         "device": "c"
     },
-    "mobile_c250110_[1057-1321]": {
+    "autolife_c250110_[1057-1321]": {
         "reference_journals": [
             "In the midday, the user stays at home, relaxing and working",
             "round midday, the user remains at home, balancing rest with work activities"
@@ -1097,7 +1097,7 @@
         "experimenter": "B",
         "device": "c"
     },
-    "mobile_c250110_[2025-2048]": {
+    "autolife_c250110_[2025-2048]": {
         "reference_journals": [
             "In the evening, the user stays at home, relaxing and working",
             "In the evening, the user remains at home, balancing rest with work activities"
@@ -1106,7 +1106,7 @@
         "experimenter": "B",
         "device": "c"
     },
-    "mobile_c250111_[1615-1737]": {
+    "autolife_c250111_[1615-1737]": {
         "reference_journals": [
             "In the afternoon, the user takes a vehicle from home to visit Honey Park, spending time walking and enjoying leisure activities. Afterwards, they browse through a nearby shopping mall",
             "In the afternoon, the user travels by vehicle from home to Honey Park to relax and take a walk, and later explores a shopping mall"
@@ -1115,7 +1115,7 @@
         "experimenter": "B",
         "device": "c"
     },
-    "mobile_c250111_[2118-2335]": {
+    "autolife_c250111_[2118-2335]": {
         "reference_journals": [
             "In the evening, the user browses KK Shopping Mall and then takes a vehicle back home",
             "In the evening, the user spends time exploring KK Shopping Mall before returning home by vehicle"
@@ -1124,7 +1124,7 @@
         "experimenter": "B",
         "device": "c"
     },
-    "mobile_c250112_[1814-2021]": {
+    "autolife_c250112_[1814-2021]": {
         "reference_journals": [
             "In the evening, the user leaves home and has dinner at Little Dragon Overturns the Great River restaurant in Galaxy Center",
             "In the evening, the user leaves home and visits Galaxy Center, where they has dinner at Little Dragon Overturns the Great River restaurant"
@@ -1133,7 +1133,7 @@
         "experimenter": "B",
         "device": "c"
     },
-    "mobile_c250112_[2237-2314]": {
+    "autolife_c250112_[2237-2314]": {
         "reference_journals": [
             "In the late evening, the user stays at home to rest",
             "In the late evening, the user remains at home, relaxing and resting"
@@ -1142,7 +1142,7 @@
         "experimenter": "B",
         "device": "c"
     },
-    "mobile_c250114_[0951-1159]": {
+    "autolife_c250114_[0951-1159]": {
         "reference_journals": [
             "In the morning, the user leaves home and takes public transport, including the MTR and then a bus, to the Hong Kong University of Science and Technology (HKUST) campus.",
             "In the morning, the user departs from home and travels to the Hong Kong University of Science and Technology (HKUST) campus using public transportation, including MTR and bus."
@@ -1151,7 +1151,7 @@
         "experimenter": "A",
         "device": "c"
     },
-    "mobile_c250114_[1200-1403]": {
+    "autolife_c250114_[1200-1403]": {
         "reference_journals": [
             "In the midday, the user remains on the Hong Kong University of Science and Technology (HKUST) campus, engaging in academic activities.",
             "Around midday, the user stays at the Hong Kong University of Science and Technology (HKUST) campus, involved in academic work and studies."
@@ -1160,7 +1160,7 @@
         "experimenter": "A",
         "device": "c"
     },
-    "mobile_c250114_[1404-1806]": {
+    "autolife_c250114_[1404-1806]": {
         "reference_journals": [
             "In the afternoon, the user stays in a discussion room on the Hong Kong University of Science and Technology (HKUST) campus for a meeting.",
             "In the afternoon, the user remains in a discussion room of the Hong Kong University of Science and Technology (HKUST) campus, where they have a meeting."
@@ -1169,7 +1169,7 @@
         "experimenter": "A",
         "device": "c"
     },
-    "mobile_c250121_[1506-1844]": {
+    "autolife_c250121_[1506-1844]": {
         "reference_journals": [
             "In the afternoon, the user leaves the Hong Kong University of Science and Technology (HKUST) campus and takes a bus and MTR to Don Don Donki for shopping. Afterwards, they take the MTR to Little Town Chef restaurant for dinner",
             "In the afternoon, the user departs from the Hong Kong University of Science and Technology (HKUST) campus, travels by bus and MTR to Don Don Donki for shopping, and later continues by MTR to have dinner at Little Town Chef restaurant"
@@ -1178,7 +1178,7 @@
         "experimenter": "C",
         "device": "c"
     },
-    "mobile_c250121_[1845-2109]": {
+    "autolife_c250121_[1845-2109]": {
         "reference_journals": [
             "In the evening, the user has dinner at Little Town Chef restaurant and then attends a home party with friends at Chill Party Room",
             "In the evening, after dining at Little Town Chef restaurant, the user joins friends for a home gathering at Chill Party Room"
@@ -1187,7 +1187,7 @@
         "experimenter": "C",
         "device": "c"
     },
-    "mobile_c250121_[2110-0019]": {
+    "autolife_c250121_[2110-0019]": {
         "reference_journals": [
             "In the late evening, the user attends a home party with friends at Chill Party Room and then takes the MTR and bus back to the Hong Kong University of Science and Technology (HKUST) campus to rest",
             "In the late evening, after enjoying a home party with friends at Chill Party Room, the user returns to the the Hong Kong University of Science and Technology (HKUST) campus by MTR and bus to rest"
@@ -1196,7 +1196,7 @@
         "experimenter": "C",
         "device": "c"
     },
-    "mobile_e241214_[1600-2047]": {
+    "autolife_e241214_[1600-2047]": {
         "reference_journals": [
             "In the afternoon, the user stays at the Hong Kong University of Science and Technology (HKUST) campus, studying and resting in their dormitory. Later, they take public transport, including a bus and the MTR, to Kwai Hing Station to meet a friend. They then walk to Hotel COZi for rest",
             "In the afternoon, the user spends time studying and relaxing in their dorm at the Hong Kong University of Science and Technology (HKUST) campus. Afterwards, they travel via bus and MTR to Kwai Hing Station to meet a friend, and then walk together to Hotel COZi to rest"
@@ -1205,7 +1205,7 @@
         "experimenter": "F",
         "device": "e"
     },
-    "mobile_e241215_[0812-1415]": {
+    "autolife_e241215_[0812-1415]": {
         "reference_journals": [
             "In the morning, the user heads out from Hotel COZi and rides the MTR to Hong Kong Disneyland, where they enjoy fun activities like a roller coaster, shooting game, and the Cinderella Carousel",
             "In the morning, the user leaves Hotel COZi and takes the MTR to Hong Kong Disneyland. They enjoy many theme parks and games like the roller coaster, shooting game, and Cinderella Carousel"
@@ -1214,7 +1214,7 @@
         "experimenter": "F",
         "device": "e"
     },
-    "mobile_e241219_[1526-2224]": {
+    "autolife_e241219_[1526-2224]": {
         "reference_journals": [
             "In the afternoon, the user waits at a restaurant in the Zhuhai Port Immigration Hall of the Hong Kong\u2013Zhuhai\u2013Macau Bridge, then takes a vehicle back home to rest until late at night",
             "In the afternoon, the user spends some time at a restaurant in the Zhuhai Port Immigration Hall, and later heads home by vehicle to relax for the rest of the day"
@@ -1223,7 +1223,7 @@
         "experimenter": "D",
         "device": "e"
     },
-    "mobile_e241221_[1108-1537]": {
+    "autolife_e241221_[1108-1537]": {
         "reference_journals": [
             "In the late morning, the user leaves home and takes a vehicle to visit a relative at Phoenix Lanting Residence, where they have a meal and socialize",
             "In the late morning, the user departs from by vehicle to Phoenix Lanting Residence to visit a relative, spending time eating and chatting"
@@ -1232,7 +1232,7 @@
         "experimenter": "D",
         "device": "e"
     },
-    "mobile_e241221_[1538-1745]": {
+    "autolife_e241221_[1538-1745]": {
         "reference_journals": [
             "In the afternoon, the user leaves Phoenix Lanting Residence and takes a vehicle to MixC One, where they shop at stores like Uniqlo and MUJI. Afterwards, they take a vehicle back to Phoenix Lanting Residence",
             "In the afternoon, the user departs from Phoenix Lanting Residence to MixC One for shopping at places like Uniqlo and MUJI, then returns by vehicle to the residence"
@@ -1241,7 +1241,7 @@
         "experimenter": "D",
         "device": "e"
     },
-    "mobile_e241221_[2014-2309]": {
+    "autolife_e241221_[2014-2309]": {
         "reference_journals": [
             "In the evening, the user departs from Phoenix Lanting Residence and takes a vehicle all the way from Zhuhai to Hong Kong via the Hong Kong\u2013Zhuhai\u2013Macau Bridge, eventually arriving at the Hong Kong University of Science and Technology (HKUST) campus",
             "In the evening, the user leaves Phoenix Lanting Residence and travels by vehicle across the Hong Kong\u2013Zhuhai\u2013Macau Bridge, reaching the Hong Kong University of Science and Technology (HKUST) campus"
@@ -1250,7 +1250,7 @@
         "experimenter": "D",
         "device": "e"
     },
-    "mobile_e241222_[1153-1415]": {
+    "autolife_e241222_[1153-1415]": {
         "reference_journals": [
             "In the mid-day, the user leaves the Hong Kong University of Science and Technology (HKUST) campus, takes a bus and then the MRT to Tai Wai where they have a lunch at a restaurant, and then takes MRT cross the border into Shenzhen",
             "In the mid-day, the user departs from HKUST, taking a bus followed by the MRT to travel across the border into Shenzhen"
@@ -1259,7 +1259,7 @@
         "experimenter": "D",
         "device": "e"
     },
-    "mobile_e241222_[1416-1457]": {
+    "autolife_e241222_[1416-1457]": {
         "reference_journals": [
             "In the afternoon, the user departs from Futian Port and takes the subway to Futian Public Security Bureau at Shazui Building to apply for a visa",
             "In the afternoon, the user leaves Futian Port and travels by subway to the Futian Public Security Bureau in Shazui Building for a visa application"
@@ -1268,7 +1268,7 @@
         "experimenter": "D",
         "device": "e"
     },
-    "mobile_e241222_[1458-1902]": {
+    "autolife_e241222_[1458-1902]": {
         "reference_journals": [
             "In the afternoon, the user leaves Shazui Building, takes the subway, and then rides a bicycle to the HUAZHU Hotel",
             "In the afternoon, the user departs from Shazui Building, travels by subway, and finishes the trip by bicycle to reach the HUAZHU Hotel"
@@ -1277,7 +1277,7 @@
         "experimenter": "D",
         "device": "e"
     },
-    "mobile_e241222_[1903-0026]": {
+    "autolife_e241222_[1903-0026]": {
         "reference_journals": [
             "In the evening, the user stays at the HUAZHU Hotel to rest",
             "In the evening, the user relaxes at the HUAZHU Hotel"
@@ -1286,7 +1286,7 @@
         "experimenter": "D",
         "device": "e"
     },
-    "mobile_e241223_[1031-1218]": {
+    "autolife_e241223_[1031-1218]": {
         "reference_journals": [
             "In the morning, the user picks up a friend at Shenzhen Bao'an International Airport and takes the subway to Luohu, where they shop and then have lunch at Yuanshiji",
             "In the morning, the user meets a friend at Shenzhen Bao'an International Airport, rides the subway to Luohu for shopping, and later has lunch at Yuanshiji"
@@ -1295,7 +1295,7 @@
         "experimenter": "D",
         "device": "e"
     },
-    "mobile_e241223_[1219-1340]": {
+    "autolife_e241223_[1219-1340]": {
         "reference_journals": [
             "t midday, the user leaves Yuanshiji, crosses the border from Shenzhen to Hong Kong, and then takes the MTR to the Kowloon Tong area",
             "round midday, the user departs from Yuanshiji, enters Hong Kong from Shenzhen, and travels by MTR to Kowloon Tong"
@@ -1304,7 +1304,7 @@
         "experimenter": "D",
         "device": "e"
     },
-    "mobile_e250114_[1807-2155]": {
+    "autolife_e250114_[1807-2155]": {
         "reference_journals": [
             "In the evening, the user first stays at the Hong Kong University of Science and Technology (HKUST) for studying, and then takes a bus and MTR back home.",
             "In the evening, the user spends time studying at the Hong Kong University of Science and Technology (HKUST) campus before returning home via bus and MTR."
@@ -1313,7 +1313,7 @@
         "experimenter": "A",
         "device": "e"
     },
-    "mobile_e250115_[1545-1845]": {
+    "autolife_e250115_[1545-1845]": {
         "reference_journals": [
             "In the late afternoon, the user leaves home and takes a taxi to a restaurant called L'amant Manor to have dinner with friends. Afterwards, they take another taxi to visit Nantou Ancient City",
             "In the late afternoon, the user heads out by taxi to dine with friends at L'amant Manor, then continues by taxi to explore Nantou Ancient City"
@@ -1322,7 +1322,7 @@
         "experimenter": "B",
         "device": "e"
     },
-    "mobile_e250115_[1846-2219]": {
+    "autolife_e250115_[1846-2219]": {
         "reference_journals": [
             "In the evening, the user explores Nantou Ancient City, enjoys visiting different cultural shops, and then takes a taxi back home to rest",
             "In the evening, the user walks around Nantou Ancient City, checks out various cultural stores, and later returns home by taxi to relax"
@@ -1331,7 +1331,7 @@
         "experimenter": "B",
         "device": "e"
     },
-    "mobile_e250117_[1007-1754]": {
+    "autolife_e250117_[1007-1754]": {
         "reference_journals": [
             "In the morning and throughout the afternoon, the user spends time at Hong Kong Disneyland, enjoying many theme park leisure activities",
             "From morning through the afternoon, the user stays at Hong Kong Disneyland and enjoys various rides and fun activities"
@@ -1340,7 +1340,7 @@
         "experimenter": "J",
         "device": "e"
     },
-    "mobile_e250117_[1755-2329]": {
+    "autolife_e250117_[1755-2329]": {
         "reference_journals": [
             "In the evening, the user continues enjoying leisure activities at Hong Kong Disneyland and then takes a vehicle back home in Shenzhen",
             "In the evening, the user spends more time having fun at Hong Kong Disneyland before traveling back home to Shenzhen by vehicle"
@@ -1349,7 +1349,7 @@
         "experimenter": "B",
         "device": "e"
     },
-    "mobile_e250118_[1758-1929]": {
+    "autolife_e250118_[1758-1929]": {
         "reference_journals": [
             "In the evening, the user leaves home and takes a taxi to Hubei Building, where they have dinner at Sanyuan Garden Banquet Restaurant",
             "In the evening, the user heads out by taxi to Hubei Building and enjoys dinner at Sanyuan Garden Banquet Restaurant"
@@ -1358,7 +1358,7 @@
         "experimenter": "B",
         "device": "e"
     },
-    "mobile_e250118_[1930-2258]": {
+    "autolife_e250118_[1930-2258]": {
         "reference_journals": [
             "In the evening, after having dinner at Sanyuan Garden Banquet Restaurant, the user leaves and takes a taxi to One Avenue, where they browse some shops. Afterwards, they take the subway and walk back home",
             "In the evening, after dinner at Sanyuan Garden Banquet Restaurant, the user rides a taxi to One Avenue for shopping, then returns home by subway and on foot"
@@ -1367,7 +1367,7 @@
         "experimenter": "B",
         "device": "e"
     },
-    "mobile_e250121_[1058-1541]": {
+    "autolife_e250121_[1058-1541]": {
         "reference_journals": [
             "In the late morning, the user takes public transportation, including the MTR and bus, to Hong Kong University of Science and Technology (HKUST), where they spend a lot of time studying and working.",
             "In the late morning, the user travels by MTR and bus to Hong Kong University of Science and Technology (HKUST) and spends much of the time there studying and working.."
@@ -1376,7 +1376,7 @@
         "experimenter": "A",
         "device": "e"
     },
-    "mobile_e250121_[1542-1821]": {
+    "autolife_e250121_[1542-1821]": {
         "reference_journals": [
             "In the afternoon, the user stays at Hong Kong University of Science and Technology (HKUST) studying and working, and then takes a bus and MTR to a restaurant called Little Town Chef for dinner",
             "In the afternoon, the user spends time studying and working at Hong Kong University of Science and Technology (HKUST) before traveling by bus and MTR to have dinner with friends at Little Town Chef"
@@ -1385,7 +1385,7 @@
         "experimenter": "E",
         "device": "e"
     },
-    "mobile_e250121_[1822-2222]": {
+    "autolife_e250121_[1822-2222]": {
         "reference_journals": [
             "In the evening, the user has dinner at a restaurant called Little Town Chef and then walks to Chill Home Party, where they socialize and have fun with friends",
             "In the evening, after dining at Little Town Chef, the user walks to Chill Home Party to spend time chatting and enjoying activities with friends"
@@ -1394,7 +1394,7 @@
         "experimenter": "E",
         "device": "e"
     },
-    "mobile_e250121_[2223-0119]": {
+    "autolife_e250121_[2223-0119]": {
         "reference_journals": [
             "In the evening, the user has fun with friends at Chill Home Party and then takes a taxi back home to rest at midnight",
             "In the evening, the user enjoys time with friends at Chill Home Party before heading home by taxi to rest late at night"
@@ -1403,7 +1403,7 @@
         "experimenter": "E",
         "device": "e"
     },
-    "mobile_e250122_[0120-0959]": {
+    "autolife_e250122_[0120-0959]": {
         "reference_journals": [
             "From after midnight to the morning, the user stays at home resting",
             "Overnight into the morning, the user stays at home resting"
@@ -1412,7 +1412,7 @@
         "experimenter": "E",
         "device": "e"
     },
-    "mobile_e250122_[1000-1828]": {
+    "autolife_e250122_[1000-1828]": {
         "reference_journals": [
             "In the morning, the user stays at home resting. In the afternoon, they walk to the Hong Kong University of Science and Technology (HKUST) for studying and working",
             "he user rests at home in the morning and later walks to the Hong Kong University of Science and Technology (HKUST) in the afternoon to study and work"
@@ -1421,7 +1421,7 @@
         "experimenter": "E",
         "device": "e"
     },
-    "mobile_f241214_[1019-1215]": {
+    "autolife_f241214_[1019-1215]": {
         "reference_journals": [
             "In the morning, the user leaves home and walks to the Hong Kong University of Science and Technology (HKUST) to study",
             "In the morning, the user walks from home to the Hong Kong University of Science and Technology (HKUST) for studying"
@@ -1430,7 +1430,7 @@
         "experimenter": "H",
         "device": "f"
     },
-    "mobile_f241215_[0707-0841]": {
+    "autolife_f241215_[0707-0841]": {
         "reference_journals": [
             "In the morning, the user leaves home and takes a bus to East Point City, then takes another bus to Shenzhen Bay Port to enter Shenzhen",
             "In the morning, the user leaves home, takes a bus to East Point City, and then transfers to another bus to Shenzhen Bay Port to cross into Shenzhen"
@@ -1439,7 +1439,7 @@
         "experimenter": "H",
         "device": "f"
     },
-    "mobile_f241216_[1925-2045]": {
+    "autolife_f241216_[1925-2045]": {
         "reference_journals": [
             "In the evening, after having dinner, the user takes a taxi to Shenzhen Bao'an International Airport, then takes the subway and another taxi to Shenzhen Bay Port to enter Hong Kong",
             "In the evening, after dinner, the user travels by taxi to Shenzhen Bao'an International Airport, then continues by subway and taxi to Shenzhen Bay Port to cross into Hong Kong"
@@ -1448,7 +1448,7 @@
         "experimenter": "H",
         "device": "f"
     },
-    "mobile_f241216_[2045-2215]": {
+    "autolife_f241216_[2045-2215]": {
         "reference_journals": [
             "In the evening, the user departs from Shenzhen Bay Port, takes a bus to East Point City, transfers to another bus, and then walks home to rest",
             "In the evening, the user leaves Shenzhen Bay Port, takes a bus to East Point City, transfers to another bus, and walks home to rest"
@@ -1457,7 +1457,7 @@
         "experimenter": "H",
         "device": "f"
     },
-    "mobile_g241226_[1544-1921]": {
+    "autolife_g241226_[1544-1921]": {
         "reference_journals": [
             "In the afternoon, the user departs from Weiliya Hotel, takes a taxi to The Ritz-Carlton Chengdu, and walks to Wangfujing Mall for shopping. Later, they take a taxi back to The Ritz-Carlton Chengdu for dinner",
             "In the afternoon, the user leaves Weiliya Hotel, takes a taxi to The Ritz-Carlton Chengdu, walks to Wangfujing Mall for shopping, and later returns by taxi to the hotel for dinner"
@@ -1466,7 +1466,7 @@
         "experimenter": "G",
         "device": "g"
     },
-    "mobile_g241226_[1922-2309]": {
+    "autolife_g241226_[1922-2309]": {
         "reference_journals": [
             "In the evening, the user departs from The Ritz-Carlton Hotel and browses shops along Chunxi Road Pedestrian Street. Later at night, they take a taxi back to Weiliya Hotel",
             "In the evening, the user visits Chunxi Road Pedestrian Street for shopping and returns to Weiliya Hotel by taxi late at night"
@@ -1475,7 +1475,7 @@
         "experimenter": "G",
         "device": "g"
     },
-    "mobile_g241227_[1742-2045]": {
+    "autolife_g241227_[1742-2045]": {
         "reference_journals": [
             "In the late afternoon, the user lands at Hong Kong International Airport and then takes the MTR, transfers to a bus, and returns home to rest",
             "In the late afternoon, the user arrives at Hong Kong International Airport by flight, takes the MTR, transfers to a bus, and goes home to rest"
@@ -1484,7 +1484,7 @@
         "experimenter": "G",
         "device": "g"
     },
-    "mobile_h241221_[1055-1302]": {
+    "autolife_h241221_[1055-1302]": {
         "reference_journals": [
             "In the late morning, the user leaves the Hong Kong University of Science and Technology (HKUST) and takes a bus and then the MTR to Futian Port to cross the border into Shenzhen. After that, they take the subway and walk to Chef Fei Restaurant for lunch",
             "In the late morning, the user travels from the Hong Kong University of Science and Technology (HKUST) by bus and MTR to Futian Port, crosses into Shenzhen, and then takes the subway and walks to Chef Fei Restaurant for lunch"
@@ -1493,7 +1493,7 @@
         "experimenter": "F",
         "device": "h"
     },
-    "mobile_h250121_[1503-1835]": {
+    "autolife_h250121_[1503-1835]": {
         "reference_journals": [
             "In the afternoon, the user studies at the Hong Kong University of Science and Technology (HKUST) and then takes a bus and the MTR to the Tsim Sha Tsui area to shop at Don Don Donki and Tom Lee Music. Afterwards, they take the MTR and walk to Little Town Chef for dinner",
             "In the afternoon, the user studies at the Hong Kong University of Science and Technology (HKUST), travels by bus and MTR to Tsim Sha Tsui for shopping at Don Don Donki and Tom Lee Music, and then takes the MTR and walks to Little Town Chef for dinner"
@@ -1502,7 +1502,7 @@
         "experimenter": "F",
         "device": "h"
     },
-    "mobile_h250121_[1836-2219]": {
+    "autolife_h250121_[1836-2219]": {
         "reference_journals": [
             "In the evening, the user has dinner at Little Town Chef and then walks to Chill Home Party to have fun with friends",
             "In the evening, the user dines at Little Town Chef restaurant and then walks to Chill Home Party to socialize with friends"

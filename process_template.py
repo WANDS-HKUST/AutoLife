@@ -285,8 +285,8 @@ def infer_daily_activity(path_dataset, path_save,time_window=20, seed=3432):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='AutoLife sensor processing')
-    parser.add_argument('experiment_dir', help='Input directory path')
-    parser.add_argument('output_dir', help='Output directory path')
+    parser.add_argument('experiment_dir', help='Input experiment directory path')
+    parser.add_argument('output_dir', help='Output log directory path')
 
     args = parser.parse_args()
 

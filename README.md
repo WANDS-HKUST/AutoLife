@@ -122,11 +122,11 @@ data/
 ├── experiment_3/
 ├── ...
 └── experiment_N/
+journal_evaluation.py                // Helper script for evaluating the generated journals
 journals_reference.json         // Reference journals describing user behaviors and activity annotations
 journals_generated_sample.json  // Samples of generated journals derived from sensor data
 meta.json                       // Dataset-level metadata about devices and experimenter
 sensortool.py                   // Helper script for reading raw sensor data
-lj_evaluation.py                // Helper script for evaluating the generated journals
 ```
 ## 🗂️ Sensor Data
 
@@ -148,7 +148,7 @@ Each entry in the JSON file is a **key–value pair**:
 Examples:
 ```text
 {
-  "mobile_j240615_[2106-2151]": {
+  "autolife_j240615_[2106-2151]": {
     "reference_journals": [ // List of reference journal entries
       "In the evening, the user browses a shopping mall.", 
       "In the evening, the user explores a shopping mall."
@@ -161,9 +161,9 @@ Examples:
 ```
 Each key follows the format:
 ```
-mobile_[device_id][date: YYMMDD][start_time-end_time]
+autolife_[device_id][date: YYMMDD][start_time-end_time]
 ```
-For example, `mobile_j240322_[1717-1746]` indicates that the data was collected using device `j` on **2024-03-22**, from **17:17 to 17:46** (24-hour format).
+For example, `autolife_j240322_[1717-1746]` indicates that the data was collected using device `j` on **2024-03-22**, from **17:17 to 17:46** (24-hour format).
 
 The value associated with each key contains metadata and reference journals.
 # Usage
@@ -187,7 +187,7 @@ The `process_template.py` script includes:
 - Utility functions for processing raw sensor data
 - A placeholder section where you can add your own data processing logic
 
-If you would like to understand how raw sensor data is loaded and parsed, please refer to `sensortool.py`.
+If you would like to understand how raw sensor data is loaded and parsed, please refer to [`sensortool.py`](sensortool.py).
 ##  Journal Evaluation
 `lj_evaluation.py`
 # ⚠️ Important Reminders and Limitations
